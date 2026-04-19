@@ -1,0 +1,186 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* Brand colors */
+  --color-iko-pink: #FFB2FF;
+  --color-royal-blue: #3223D6;
+  --color-lavender-blue: #8D7EFD;
+  --color-soft-lilac: #D9D7FE;
+  --color-midnight-navy: #1A1A32;
+  --color-laser-lemon: #F9F871;
+  --color-apricot: #FFC48F;
+  --color-taffy-pink: #FFA4C5;
+  --color-canton: #619B97;
+  --color-bleached-denim: #6D78A4;
+  --color-dark-liver: #50434F;
+
+  /* Font */
+  --font-family-sans: var(--font-dm-sans), sans-serif;
+
+  /* Typography scale */
+  --font-size-eyebrow: 13px;
+  --line-height-eyebrow: 16px;
+}
+
+/* Brand gradient utilities */
+.gradient-brand {
+  background: linear-gradient(135deg, #D9D7FE 0%, #8D7EFD 33%, #3223D6 66%, #FFB2FF 100%);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #8D7EFD 0%, #3223D6 50%, #FFB2FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.gradient-border {
+  background: linear-gradient(135deg, #D9D7FE, #8D7EFD, #3223D6, #FFB2FF);
+  padding: 2px;
+  border-radius: 18px;
+}
+
+.gradient-border > div {
+  background: white;
+  border-radius: 16px;
+}
+
+/* Button utilities */
+.btn-primary {
+  background: linear-gradient(135deg, #3223D6 0%, #8D7EFD 100%);
+  box-shadow: 0 4px 14px rgba(50, 35, 214, 0.25);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #3223D6 0%, #FFB2FF 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(50, 35, 214, 0.35);
+}
+
+.btn-ghost {
+  color: #1A1A32;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1.5px solid rgba(141, 126, 253, 0.4);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-ghost:hover {
+  border-color: #8D7EFD;
+  background: rgba(141, 126, 253, 0.06);
+}
+
+.btn-ghost-white {
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-ghost-white:hover {
+  border-color: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Gradient divider */
+.gradient-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #8D7EFD 50%, transparent 100%);
+  opacity: 0.3;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Eyebrow text utility */
+.text-eyebrow {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Body-L size */
+.text-body-l {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* H sizes */
+.text-h1 {
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.text-h2 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #1A1A32;
+  font-family: var(--font-dm-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prose/MDX styles */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: #1A1A32;
+  font-family: var(--font-dm-sans), sans-serif;
+}
+
+.prose a {
+  color: #3223D6;
+  text-decoration-color: rgba(141, 126, 253, 0.4);
+}
+
+.prose a:hover {
+  color: #8D7EFD;
+}
+
+.prose code {
+  background: rgba(217, 215, 254, 0.3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.prose pre {
+  background: #1A1A32;
+  border-radius: 12px;
+}

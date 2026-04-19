@@ -1,0 +1,157 @@
+---
+title: "AI Search Optimization: How to Get Cited by ChatGPT, Perplexity, and Gemini"
+titleEs: "Optimización para IA Search: Cómo ser citado por ChatGPT, Perplexity y Gemini"
+slug: "ai-search-optimization-2026"
+date: "2026-03-15"
+excerpt: "A technical guide to Answer Engine Optimization (AEO) — covering LLMs.txt, structured data, citation tracking, and the content principles that make AI engines trust your brand."
+excerptEs: "Una guía técnica de Answer Engine Optimization (AEO) — cubriendo LLMs.txt, structured data, seguimiento de citas y los principios de contenido que hacen que los motores de IA confíen en tu marca."
+category: "AI Search"
+tags: ["AI Search", "AEO", "LLMs", "Structured Data"]
+coverImage: "/images/blog/ai-search-optimization-2026/cover.jpg"
+readingTime: "10 min"
+lang: "en"
+relatedPost: "optimizacion-ai-search-2026"
+---
+
+When someone asks ChatGPT "what's the best nearshoring company for software development?" — your brand should be in that answer. Not as an ad. As a cited recommendation.
+
+This is Answer Engine Optimization (AEO), and it's the fastest-growing area of search marketing in 2026. Unlike traditional SEO, where ranking signals are well-documented, AEO requires a different mental model: you're not optimizing for a crawler, you're optimizing for an AI that's trying to give accurate, comprehensive answers to real questions.
+
+Here's what I've learned from tracking 770+ AI citations across 5 engines for my clients.
+
+## How AI Engines Decide What to Cite
+
+Before we get to tactics, you need to understand how these engines work.
+
+ChatGPT (GPT-4o and later models), Perplexity, Gemini, Claude, and Copilot all use a combination of:
+
+1. **Training data** — content that was in their training corpus (mostly web content up to a certain date)
+2. **Retrieval Augmented Generation (RAG)** — real-time web search when answering questions
+3. **Preference data** — implicit feedback from what users find useful
+
+For AEO purposes, the RAG component matters most because it governs real-time citations. When Perplexity or Gemini searches the web to answer a question, they're running a search query and then synthesizing the top results into an answer — citing the sources they used.
+
+This means: **if you rank in Google for a topic, AI engines are much more likely to cite you for that topic.** Traditional SEO and AEO are not separate disciplines — they're complementary.
+
+## The LLMs.txt File
+
+One of the most underused technical implementations for AEO is the `llms.txt` file.
+
+Similar to `robots.txt` for traditional crawlers, `llms.txt` is a convention that allows you to specify how AI systems should understand and represent your brand. While not universally adopted yet, major AI companies are increasingly respecting it.
+
+Create `/llms.txt` in your root directory with this structure:
+
+```
+# [Your Brand Name]
+
+> [One sentence description of what you do]
+
+## About
+[2-3 paragraphs explaining your brand, expertise, and what makes you credible]
+
+## Services / Products
+- [Service 1]: [Brief description]
+- [Service 2]: [Brief description]
+
+## Key Facts
+- Founded: [Year]
+- Clients: [Types of clients]
+- Expertise: [Your specific domain]
+
+## Contact
+- Website: [URL]
+- Email: [email]
+```
+
+This gives AI systems a clean, structured source of truth about your brand that they can use when generating answers about your space.
+
+## Structured Data That AI Engines Actually Use
+
+Beyond `llms.txt`, these schema types have the highest impact on AI citation frequency:
+
+**Organization schema:** Tells AI engines who you are, what you do, and how to describe you. Every company should have this on their homepage and about page.
+
+**FAQPage schema:** This is the highest-impact schema for AEO. When you implement FAQ schema, you're literally giving AI engines pre-formatted question-answer pairs to pull from. Structure your FAQ content around the questions your buyers ask AI engines.
+
+**HowTo schema:** Step-by-step processes structured in schema are frequently pulled verbatim by AI engines. If you have a methodology or process, structure it this way.
+
+**Article/BlogPosting schema:** Includes `author`, `datePublished`, `dateModified`, and `publisher`. AI engines use this to assess freshness and authority.
+
+## Content Principles for AI Citation
+
+Beyond technical implementation, the content itself needs to meet a higher standard than traditional SEO content.
+
+**Be specific, not general.** AI engines prefer sources that give precise answers over vague, hedged content. "Nearshoring companies typically charge $25–$75/hour for software development depending on location and seniority" will be cited more than "nearshoring can be cost-effective."
+
+**Include named methodologies.** Proprietary frameworks, named approaches, and specific processes are highly citable. If you have a methodology, name it and describe it clearly.
+
+**Cite your sources.** Content that cites research, reports, and data is treated as more credible by AI engines (following the same logic as academic writing). Link to primary sources.
+
+**Update regularly.** AI engines with RAG components prioritize fresh content. A `dateModified` of last week beats `datePublished` of two years ago.
+
+**Answer the question directly.** The first sentence of every section should directly answer the implied question of that heading. Don't bury the answer.
+
+## Citation Tracking: How to Know If It's Working
+
+Tracking AI citations is harder than tracking Google rankings, but it's getting easier. Here's my current stack:
+
+**Manual monitoring:** Set up weekly prompts across ChatGPT, Perplexity, Gemini, and Claude using your target questions. Screenshot and track which sources they cite.
+
+**Perplexity Pages:** Perplexity now shows detailed citation data in their interface. Look at which pages appear in answer threads related to your industry.
+
+**Brand monitoring tools:** Tools like Brand24 and Mention are starting to include AI citation tracking. Not perfect, but useful for pattern detection.
+
+**Google Search Console:** Track branded search volume over time. If your AI citations are working, you'll see an increase in branded searches as people who encounter your brand in AI results then search for you directly.
+
+## The Robots.txt Settings You Must Change
+
+Most companies have a default `robots.txt` that blocks AI crawlers. Fix this immediately:
+
+```
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+```
+
+If these bots can't crawl your site, you're not going to get cited. It's that simple.
+
+## Building Topical Authority for AEO
+
+AI engines don't cite sources they don't recognize as authoritative on a topic. Authority comes from:
+
+**Depth of coverage:** Having 15 articles on nearshoring SEO is more authoritative than having 1. Create content pillars — a comprehensive hub page on each core topic, with supporting articles on specific subtopics.
+
+**Earned media mentions:** When other credible sources cite your brand in their content, AI engines aggregate this into their understanding of who the authoritative sources are.
+
+**Consistency:** Covering the same topic from multiple angles, formats, and levels of depth signals deep expertise.
+
+**Recency:** Regular publishing cadence signals that you're an active, current source — not a static site.
+
+## The 30-Day AEO Quick Start
+
+If you're starting from zero:
+
+**Week 1:** Implement `llms.txt`, update `robots.txt`, add Organization + FAQPage schema to your key pages.
+
+**Week 2:** Audit your top 10 blog posts for directness, specificity, and cited data. Update them.
+
+**Week 3:** Create 5 FAQ-format articles targeting the questions your buyers ask AI engines. Implement FAQPage schema on each.
+
+**Week 4:** Start manual citation tracking. Establish your baseline across ChatGPT, Perplexity, and Gemini for your 10 target questions.
+
+Repeat and iterate from there.
+
+---
+
+Want help implementing this for your specific industry? [Book a free audit](/audit) and I'll show you exactly where you stand across both traditional and AI search.

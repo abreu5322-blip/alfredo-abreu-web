@@ -1,0 +1,405 @@
+{
+  "nav": {
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Book Free Audit",
+    "logoAlt": "Alfredo Abreu B2B SEO Consultant"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Bilingual B2B SEO Consultant",
+      "h1Part1": "I turn B2B organic traffic into",
+      "h1Highlight": "real revenue.",
+      "body": "I help Nearshoring, BPO, and SaaS companies in the US market generate qualified pipeline through SEO. $14.85M+ in client revenue attributed to organic. 6+ years. Bilingual English/Spanish.",
+      "ctaPrimary": "Book Free 30-min Audit",
+      "ctaGhost": "See Case Studies →",
+      "trustBar": "Trusted by B2B companies in:",
+      "trustItems": ["Nearshoring", "BPO", "SaaS", "Fintech"],
+      "metric1Value": "$10.5M",
+      "metric1Label": "Enterprise deal closed via organic",
+      "metric2Value": "+168%",
+      "metric2Label": "Organic traffic in 6 months",
+      "metric3Value": "770+",
+      "metric3Label": "AI citations across 5 engines"
+    },
+    "stats": {
+      "stat1Value": "$14.85M+",
+      "stat1Label": "In client revenue attributed to organic SEO",
+      "stat2Value": "31+",
+      "stat2Label": "B2B projects delivered in US & LatAm",
+      "stat3Value": "6+",
+      "stat3Label": "Years in B2B SEO",
+      "stat4Value": "168%",
+      "stat4Label": "Average organic traffic increase"
+    },
+    "shift": {
+      "eyebrow": "The 2026 SEO Reality",
+      "h2Part1": "Google is no longer enough. Your buyers are searching in",
+      "h2Highlight": "AI engines.",
+      "oldTitle": "The old playbook (dead)",
+      "newTitle": "What works in 2026",
+      "oldItems": [
+        "Stuffing blog posts with keywords",
+        "Buying cheap backlinks",
+        "Ranking for brand terms only",
+        "Ignoring ChatGPT and Perplexity"
+      ],
+      "newItems": [
+        "Revenue-first keyword architecture",
+        "Authority backlinks that build trust",
+        "AI Search Optimization (AEO)",
+        "Measuring leads, not just rankings"
+      ]
+    },
+    "services": {
+      "eyebrow": "Services",
+      "h2Part1": "Three ways to grow your organic",
+      "h2Highlight": "revenue",
+      "card1Title": "Strategy Audit",
+      "card1Price": "From $500",
+      "card1Desc": "A complete diagnosis of your SEO — technical, content, and off-page — with a prioritized roadmap you can execute immediately.",
+      "card1Tag": "One-time",
+      "card2Title": "Monthly SEO",
+      "card2Price": "From $1,000/mo",
+      "card2Desc": "Full-service SEO: technical fixes, link building, content optimization, and monthly reporting with revenue attribution.",
+      "card2Tag": "Most Popular",
+      "card3Title": "AI Search Optimization",
+      "card3Price": "Custom",
+      "card3Desc": "Get your brand cited in ChatGPT, Perplexity, and Gemini. LLMs.txt, structured data, and authority content that AI engines trust.",
+      "card3Tag": "2026 Ready",
+      "learnMore": "Learn More →"
+    },
+    "featuredCase": {
+      "eyebrow": "Featured Case Study",
+      "h2Part1": "How organic SEO closed a",
+      "h2Highlight": "$10.5M deal",
+      "h2Part2": "for a Nearshoring company.",
+      "desc": "AXS is a nearshoring company serving the US market. Starting from a neglected site with toxic backlinks, we built a revenue-generating SEO program that directly attributed to closing their largest enterprise deal to date.",
+      "metric1Value": "$10.5M",
+      "metric1Label": "Enterprise deal via organic",
+      "metric2Value": "+168.79%",
+      "metric2Label": "Organic clicks (6 months)",
+      "metric3Value": "+156.33%",
+      "metric3Label": "Impressions growth",
+      "metric4Value": "Top 5",
+      "metric4Label": "Average ranking position",
+      "cta": "Read Full Case Study →"
+    },
+    "approach": {
+      "eyebrow": "My Approach",
+      "h2Part1": "SEO is a system, not a",
+      "h2Highlight": "tactic.",
+      "phase1Num": "01",
+      "phase1Title": "Diagnose",
+      "phase1Desc": "Comprehensive audit: technical health, keyword gaps, competitor landscape, and content opportunities.",
+      "phase2Num": "02",
+      "phase2Title": "Blueprint",
+      "phase2Desc": "Revenue-first roadmap: prioritized by impact, effort, and business objectives — not vanity metrics.",
+      "phase3Num": "03",
+      "phase3Title": "Build",
+      "phase3Desc": "Execute with precision: technical fixes, authority link building, and content that converts.",
+      "phase4Num": "04",
+      "phase4Title": "Measure & Scale",
+      "phase4Desc": "Monthly reporting tied to revenue. What works gets scaled. What doesn't gets cut."
+    },
+    "finalCta": {
+      "h2Part1": "Ready to turn SEO into",
+      "h2Highlight": "revenue?",
+      "body": "Book a free 30-minute audit. I'll review your site, identify the highest-impact opportunities, and give you a clear picture of what's possible.",
+      "ctaPrimary": "Book Free 30-min Audit",
+      "ctaSecondary": "Download Free SEO Checklist (PDF)"
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Services",
+      "h1Part1": "SEO built to generate",
+      "h1Highlight": "revenue,",
+      "h1Part2": "not rankings."
+    },
+    "audit": {
+      "eyebrow": "One-Time",
+      "title": "Strategy Audit",
+      "price": "$500",
+      "desc": "A complete diagnostic of your SEO. You'll leave with a clear picture of what's broken, what's working, and exactly what to fix first to generate revenue.",
+      "deliverables": [
+        "Full technical SEO audit (crawl, Core Web Vitals, indexation)",
+        "Keyword gap analysis vs. top 3 competitors",
+        "Backlink profile review (toxic link identification)",
+        "Content audit with revenue-opportunity scoring",
+        "Prioritized 90-day roadmap (PDF)",
+        "60-min strategy call to walk through findings"
+      ],
+      "cta": "Get Your Audit"
+    },
+    "pricing": {
+      "eyebrow": "Monthly Retainer",
+      "h2Part1": "Choose the intensity that matches your",
+      "h2Highlight": "goals.",
+      "note": "The activities are the same across all plans. What changes is the volume and intensity of link building and content production.",
+      "plan1Name": "Base",
+      "plan1Price": "$1,000",
+      "plan1Period": "/month",
+      "plan1Tag": "Best for: early-stage companies",
+      "plan2Name": "Growth",
+      "plan2Price": "$1,200",
+      "plan2Period": "/month",
+      "plan2Tag": "Most Popular",
+      "plan3Name": "Hyper Growth",
+      "plan3Price": "$1,500",
+      "plan3Period": "/month",
+      "plan3Tag": "Best for: scaling fast",
+      "popular": "Most Popular",
+      "ctaBase": "Get Started",
+      "ctaGrowth": "Get Started",
+      "ctaHyper": "Get Started"
+    },
+    "activities": {
+      "eyebrow": "What's Included",
+      "h2Part1": "Everything needed to",
+      "h2Highlight": "dominate your niche.",
+      "tab1": "Technical SEO",
+      "tab2": "Off-Page SEO",
+      "tab3": "Content",
+      "technical": [
+        "Monthly crawl & technical audit",
+        "Core Web Vitals monitoring & fixes",
+        "Schema markup implementation",
+        "Indexation & crawl budget optimization",
+        "Redirect management",
+        "Site architecture improvements",
+        "Mobile & page speed optimization",
+        "Structured data for AI engines"
+      ],
+      "offpage": [
+        "Backlink profile monitoring (weekly)",
+        "Authority link building (volume varies by plan)",
+        "Toxic link disavow management",
+        "Digital PR outreach*",
+        "Brand mention tracking",
+        "Competitor backlink gap analysis",
+        "Local citation building (if applicable)"
+      ],
+      "content": [
+        "Monthly keyword research & prioritization",
+        "Content briefs for in-house team",
+        "On-page optimization of existing content",
+        "Content production (volume varies by plan)*",
+        "Blog post optimization",
+        "Landing page copy review",
+        "AI Search content optimization (AEO)"
+      ],
+      "asteriskNote": "* Additional investment may apply"
+    },
+    "faq": {
+      "title": "Common Questions",
+      "q1": "What's included in the monthly retainer?",
+      "a1": "Every plan includes technical SEO monitoring, link building, content optimization, and monthly reporting with revenue attribution. The difference between plans is the volume and intensity of link building and content production.",
+      "q2": "Which plan should I choose?",
+      "a2": "Start with the Strategy Audit ($500) — it gives you a clear picture of your current situation and which plan makes the most sense for your goals. If you're just getting started with SEO, Base is usually right. If you're already getting traffic and want to scale, Growth or Hyper Growth.",
+      "q3": "Is there a minimum commitment?",
+      "a3": "3 months minimum for monthly retainers. SEO is a compounding activity — the first month is all foundation. Month 2-3 is where you start seeing traction. Clients who stick with it 6+ months see the best results.",
+      "q4": "When will I see results?",
+      "a4": "Technical fixes can have an impact in 2-4 weeks. Keyword rankings typically improve at 60-90 days. Revenue attribution usually becomes clear at 3-6 months. I'll set realistic expectations in your first audit.",
+      "q5": "Do you offer refunds?",
+      "a5": "The Strategy Audit is non-refundable once delivered — you're paying for the analysis and my time. Monthly retainers can be cancelled at the end of any month after the 3-month minimum."
+    },
+    "finalCta": {
+      "h2Part1": "Not sure which plan is right?",
+      "h2Highlight": "Start with the audit.",
+      "body": "A $500 strategy audit will tell you exactly where you stand, what's holding you back, and which plan makes sense for your specific situation.",
+      "cta": "Book Free 30-min Audit"
+    }
+  },
+  "caseStudies": {
+    "hero": {
+      "eyebrow": "Case Studies",
+      "h1Part1": "Real work.",
+      "h1Highlight": "Real revenue.",
+      "h1Part2": "Real results."
+    },
+    "axs": {
+      "title": "AXS",
+      "subtitle": "Nearshoring company closes $10.5M deal via organic SEO",
+      "tag": "B2B · Nearshoring",
+      "metric1": "$10.5M deal",
+      "metric2": "+168% clicks",
+      "metric3": "+156% impressions"
+    },
+    "feedingWestchester": {
+      "title": "Feeding Westchester",
+      "subtitle": "NGO drives $80K in organic donations with Local SEO",
+      "tag": "NGO · Local SEO",
+      "metric1": "+168% revenue",
+      "metric2": "+$80K donations",
+      "metric3": "+26% traffic"
+    },
+    "liviusPrep": {
+      "title": "Livius Prep",
+      "subtitle": "Education startup grows organic users by 208%",
+      "tag": "Education · Local B2C",
+      "metric1": "+208% users",
+      "metric2": "+128% traffic",
+      "metric3": "+295% returning"
+    },
+    "wxb": {
+      "title": "WXB",
+      "subtitle": "E-commerce wax supplier scales revenue by 55%",
+      "tag": "E-commerce · B2B/B2C",
+      "metric1": "+55% revenue",
+      "metric2": "+19% clicks",
+      "metric3": "+70% impressions"
+    },
+    "readCase": "Read Case Study →"
+  },
+  "about": {
+    "hero": {
+      "h1": "Hi, I'm Alfredo.",
+      "intro": "I'm a bilingual B2B SEO consultant based in Latin America, working with companies in the US market. Electrical Engineering background. SEO since 2019. $14.85M+ in client revenue attributed to organic search across 31+ projects.",
+      "stat1Value": "$14.85M+",
+      "stat1Label": "Client revenue attributed",
+      "stat2Value": "31+",
+      "stat2Label": "Projects delivered",
+      "stat3Value": "6+",
+      "stat3Label": "Years in B2B SEO"
+    },
+    "engineering": {
+      "eyebrow": "Why an engineer does SEO",
+      "h2Part1": "SEO is a system that can be",
+      "h2Highlight": "engineered.",
+      "principle1Title": "Systems Thinking",
+      "principle1Desc": "Every page, link, and piece of content is a component in a larger system. I optimize the system, not individual tactics.",
+      "principle2Title": "Data Over Opinions",
+      "principle2Desc": "I don't guess. I measure. Every recommendation is backed by data from GSC, GA4, Ahrefs, or Screaming Frog.",
+      "principle3Title": "Iteration Loops",
+      "principle3Desc": "Build, measure, learn, repeat. The same engineering mindset that improves products applies to SEO."
+    },
+    "toolkit": {
+      "eyebrow": "Toolkit",
+      "h2Part1": "Tools I use",
+      "h2Highlight": "every day."
+    },
+    "recognition": {
+      "eyebrow": "Recognition",
+      "title": "Speaker at Condor Marketing & Staffing",
+      "desc": "Invited speaker on \"Mastering SEO for B2B Companies\" — covering AI search optimization, revenue attribution, and the shifting landscape of organic search in 2025-2026.",
+      "org": "Condor Marketing & Staffing"
+    },
+    "finalCta": {
+      "h2Part1": "Let's grow your organic",
+      "h2Highlight": "revenue."
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "h1Part1": "Let's talk about your",
+      "h1Highlight": "SEO."
+    },
+    "calendly": {
+      "title": "Book a Free 30-min Audit",
+      "desc": "Jump on a call. I'll review your site live, identify your top opportunities, and give you a clear picture of what's possible.",
+      "cta": "Book on Calendly"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "desc": "Prefer to message first? I'm usually available Mon–Fri during US business hours.",
+      "cta": "Message on WhatsApp",
+      "number": "+58 424 237 4975"
+    },
+    "email": {
+      "title": "Email",
+      "desc": "For project inquiries, collaborations, or if you just want to send a longer message.",
+      "cta": "Send an Email",
+      "address": "abreu5322@gmail.com"
+    },
+    "form": {
+      "title": "Send a Message",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "John Smith",
+      "emailLabel": "Email",
+      "emailPlaceholder": "john@company.com",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Acme Corp",
+      "websiteLabel": "Website",
+      "websitePlaceholder": "https://acme.com",
+      "budgetLabel": "Budget",
+      "budgetOptions": {
+        "audit": "$500 Strategy Audit",
+        "monthly": "$1,000–$1,500/month Retainer",
+        "custom": "Custom / Not sure yet"
+      },
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your company, your SEO goals, and any challenges you're facing...",
+      "submit": "Send Message",
+      "success": "Message sent! I'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again or email me directly."
+    }
+  },
+  "audit": {
+    "hero": {
+      "eyebrow": "Free Audit",
+      "h1Part1": "Get a Free 30-min",
+      "h1Highlight": "SEO Audit.",
+      "body": "No pitch. No commitment. I'll review your site, identify your highest-impact opportunities, and give you honest feedback on what's holding you back."
+    },
+    "bullets": [
+      "A live review of your site's technical SEO health",
+      "Your top 3 keyword opportunities (revenue-first, not traffic-first)",
+      "An honest assessment of your current backlink profile",
+      "Clear next steps — whether you hire me or not"
+    ],
+    "socialProof": {
+      "stat1": "31+ companies",
+      "stat2": "$14.85M+ generated",
+      "stat3": "6+ years"
+    },
+    "calendlyTitle": "Pick a time that works for you"
+  },
+  "blog": {
+    "hero": {
+      "eyebrow": "Blog",
+      "h1Part1": "SEO insights for",
+      "h1Highlight": "B2B companies."
+    },
+    "filterAll": "All Posts",
+    "filterEn": "English",
+    "filterEs": "Spanish",
+    "readMore": "Read Article →",
+    "readingTime": "min read",
+    "noPosts": "No posts found.",
+    "sidebar": {
+      "toc": "In this article",
+      "ctaTitle": "Book a Free Audit",
+      "ctaDesc": "Let's talk about your SEO.",
+      "ctaButton": "Book Now →"
+    },
+    "authorBio": {
+      "name": "Alfredo Abreu",
+      "role": "B2B SEO Consultant",
+      "bio": "Bilingual SEO consultant specializing in Nearshoring, BPO, and SaaS companies in the US market. $14.85M+ in client revenue attributed to organic search."
+    },
+    "relatedPosts": "Related Posts"
+  },
+  "footer": {
+    "tagline": "Bilingual B2B SEO Consultant — Nearshoring · BPO · SaaS",
+    "nav": "Navigation",
+    "legal": "© 2026 Alfredo Abreu. All rights reserved.",
+    "madeWith": "Built with Next.js & Tailwind CSS"
+  },
+  "caseStudy": {
+    "theClient": "The Client",
+    "theChallenge": "The Challenge",
+    "theApproach": "The Approach",
+    "theResults": "The Results",
+    "visualProof": "Visual Proof",
+    "backToAll": "← All Case Studies",
+    "nextCase": "Next Case Study →",
+    "ctaTitle": "Want results like these?",
+    "ctaDesc": "Book a free 30-min audit and I'll show you exactly what's possible for your business.",
+    "ctaButton": "Book Free Audit"
+  }
+}

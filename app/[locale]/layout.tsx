@@ -1,0 +1,62 @@
+import type { Metadata } from 'next'
+import { DM_Sans } from 'next/font/google'
+import { notFound } from 'next/navigation'
+import { NextIntlClientProvider } from 'next-intl'
+import { getMessages } from 'next-intl/server'
+import { routing } from '@/i18n/routing'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+import '@/app/globals.css'
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-dm-sans',
+})
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://alfredoabreu.com'),
+  title: {
+    template: '%s | Alfredo Abreu — B2B SEO Consultant',
+    default: 'Alfredo Abreu — B2B SEO Consultant',
+  },
+  description:
+    'Bilingual B2B SEO Consultant specializing in Nearshoring, BPO, and SaaS companies in the US market. $14.85M+ in client revenue attributed to organic search.',
+  openGraph: {
+    siteName: 'Alfredo Abreu',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630 }],
+  },
+}
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }))
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+
+  if (!routing.locales.includes(locale as 'en' | 'es')) {
+    notFound()
+  }
+
+  const messages = await getMessages()
+
+  return (
+    <html lang={locale} className={dmSans.variable}>
+      <body className="font-sans bg-white text-midnight-navy antialiased">
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          <main>{children}</main>
+          <Footer />
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  )
+}
