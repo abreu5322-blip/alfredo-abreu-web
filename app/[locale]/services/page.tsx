@@ -137,10 +137,15 @@ export default function ServicesPage() {
                   {t('services.audit.price')}
                 </p>
                 <p className="text-sm text-midnight-navy/40 mb-8">one-time</p>
-                <Link href="/audit" className="btn-primary text-base px-8 py-3.5 w-full">
+                <a
+                  href="https://calendly.com/abreu5322/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary text-base px-8 py-3.5 w-full"
+                >
                   <Calendar size={18} />
                   {t('services.audit.cta')}
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -175,9 +180,14 @@ export default function ServicesPage() {
                 <span className="text-4xl font-bold text-midnight-navy">{t('services.pricing.plan1Price')}</span>
                 <span className="text-midnight-navy/40 ml-1">{t('services.pricing.plan1Period')}</span>
               </div>
-              <Link href="/audit" className="btn-ghost text-sm px-6 py-3 w-full">
+              <a
+                href="https://calendly.com/abreu5322/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-ghost text-sm px-6 py-3 w-full"
+              >
                 {t('services.pricing.ctaBase')}
-              </Link>
+              </a>
             </div>
 
             {/* Growth — gradient border */}
@@ -194,9 +204,14 @@ export default function ServicesPage() {
                   <span className="text-4xl font-bold gradient-text">{t('services.pricing.plan2Price')}</span>
                   <span className="text-midnight-navy/40 ml-1">{t('services.pricing.plan2Period')}</span>
                 </div>
-                <Link href="/audit" className="btn-primary text-sm px-6 py-3 w-full">
+                <a
+                  href="https://calendly.com/abreu5322/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary text-sm px-6 py-3 w-full"
+                >
                   {t('services.pricing.ctaGrowth')}
-                </Link>
+                </a>
               </div>
             </div>
 
@@ -208,9 +223,14 @@ export default function ServicesPage() {
                 <span className="text-4xl font-bold text-midnight-navy">{t('services.pricing.plan3Price')}</span>
                 <span className="text-midnight-navy/40 ml-1">{t('services.pricing.plan3Period')}</span>
               </div>
-              <Link href="/audit" className="btn-ghost text-sm px-6 py-3 w-full">
+              <a
+                href="https://calendly.com/abreu5322/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-ghost text-sm px-6 py-3 w-full"
+              >
                 {t('services.pricing.ctaHyper')}
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -297,10 +317,15 @@ export default function ServicesPage() {
           <p className="text-body text-white/60 mb-8 leading-relaxed">
             {t('services.finalCta.body')}
           </p>
-          <Link href="/audit" className="btn-primary text-base px-8 py-3.5">
+          <a
+            href="https://calendly.com/abreu5322/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-base px-8 py-3.5"
+          >
             <Calendar size={18} />
             {t('services.finalCta.cta')}
-          </Link>
+          </a>
         </div>
       </section>
     </>

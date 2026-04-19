@@ -119,9 +119,14 @@ export default async function CaseStudiesPage() {
           <p className="text-body text-white/60 mb-8 leading-relaxed">
             {t('caseStudy.ctaDesc')}
           </p>
-          <Link href="/audit" className="btn-primary text-base px-8 py-3.5">
+          <a
+            href="https://calendly.com/abreu5322/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-base px-8 py-3.5"
+          >
             {t('caseStudy.ctaButton')}
-          </Link>
+          </a>
         </div>
       </section>
     </>

@@ -64,12 +64,14 @@ export default function Footer() {
             <p className="text-sm font-semibold uppercase tracking-widest text-white/40 mb-4">
               Ready to grow?
             </p>
-            <Link
-              href="/audit"
-              className="btn-primary text-sm px-6 py-3 no-underline inline-block"
+            <a
+              href="https://calendly.com/abreu5322/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm px-6 py-3 inline-block"
             >
               {t('nav.cta')}
-            </Link>
+            </a>
             <p className="text-sm text-white/40 mt-4">
               abreu5322@gmail.com
             </p>

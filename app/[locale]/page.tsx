@@ -87,7 +87,9 @@ export default async function HomePage() {
             </p>
             <div className="flex flex-wrap gap-4 mb-12">
               <a
-                href="#audit"
+                href="https://calendly.com/abreu5322/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn-primary text-base px-7 py-3.5"
               >
                 <Calendar size={18} />
@@ -418,13 +420,15 @@ export default async function HomePage() {
             {t('home.finalCta.body')}
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link
-              href="/audit"
+            <a
+              href="https://calendly.com/abreu5322/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary text-base px-8 py-3.5"
             >
               <Calendar size={18} />
               {t('home.finalCta.ctaPrimary')}
-            </Link>
+            </a>
             <a
               href="#"
               className="btn-ghost-white text-base px-8 py-3.5"

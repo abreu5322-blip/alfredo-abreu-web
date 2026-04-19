@@ -165,9 +165,14 @@ export default async function BlogPostPage({
                   <p className="text-sm text-midnight-navy/60 mb-4">
                     {t('blog.sidebar.ctaDesc')}
                   </p>
-                  <Link href="/audit" className="btn-primary text-sm px-5 py-2.5 w-full">
+                  <a
+                    href="https://calendly.com/abreu5322/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary text-sm px-5 py-2.5 w-full"
+                  >
                     {t('blog.sidebar.ctaButton')}
-                  </Link>
+                  </a>
                 </div>
               </div>
 
@@ -239,9 +244,14 @@ export default async function BlogPostPage({
             {t('caseStudy.ctaTitle')}
           </h2>
           <p className="text-body text-white/60 mb-8">{t('caseStudy.ctaDesc')}</p>
-          <Link href="/audit" className="btn-primary text-base px-8 py-3.5">
+          <a
+            href="https://calendly.com/abreu5322/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-base px-8 py-3.5"
+          >
             {t('caseStudy.ctaButton')}
-          </Link>
+          </a>
         </div>
       </section>
     </>

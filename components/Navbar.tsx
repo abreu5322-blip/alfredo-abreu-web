@@ -76,12 +76,14 @@ export default function Navbar() {
           >
             {locale === 'en' ? 'ES' : 'EN'}
           </button>
-          <Link
-            href="/audit"
-            className="btn-primary text-sm px-5 py-2.5 no-underline"
+          <a
+            href="https://calendly.com/abreu5322/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-sm px-5 py-2.5"
           >
             {t('cta')}
-          </Link>
+          </a>
         </div>
 
         {/* Mobile hamburger */}
@@ -114,13 +116,15 @@ export default function Navbar() {
             >
               {locale === 'en' ? 'ES' : 'EN'}
             </button>
-            <Link
-              href="/audit"
-              className="btn-primary text-sm px-5 py-2.5 no-underline flex-1 text-center"
+            <a
+              href="https://calendly.com/abreu5322/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm px-5 py-2.5 flex-1 text-center"
               onClick={() => setMobileOpen(false)}
             >
               {t('cta')}
-            </Link>
+            </a>
           </div>
         </div>
       )}

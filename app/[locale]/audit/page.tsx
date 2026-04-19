@@ -84,38 +84,14 @@ export default async function AuditPage() {
                 {t('audit.calendlyTitle')}
               </h2>
 
-              {/* TODO: Replace with actual Calendly embed widget */}
-              {/* <div
-                className="calendly-inline-widget"
-                data-url="https://calendly.com/alfredoabreu/30min"
-                style={{ minWidth: '320px', height: '630px' }}
-              /> */}
-
-              {/* Placeholder until Calendly is connected */}
-              <div className="text-center py-12 space-y-4">
-                <div
-                  className="w-20 h-20 rounded-full mx-auto flex items-center justify-center"
-                  style={{ background: 'linear-gradient(135deg, #D9D7FE, #8D7EFD, #3223D6, #FFB2FF)' }}
-                >
-                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-                    <line x1="16" y1="2" x2="16" y2="6" />
-                    <line x1="8" y1="2" x2="8" y2="6" />
-                    <line x1="3" y1="10" x2="21" y2="10" />
-                  </svg>
-                </div>
-                <p className="text-sm text-midnight-navy/60 max-w-xs mx-auto">
-                  Calendly widget will appear here. Connect your Calendly URL to activate booking.
-                </p>
-                <a
-                  href="https://calendly.com/alfredoabreu"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-primary text-sm px-6 py-3 inline-flex"
-                >
-                  Book on Calendly →
-                </a>
-              </div>
+              <a
+                href="https://calendly.com/abreu5322/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary text-sm px-6 py-3 w-full"
+              >
+                Book on Calendly →
+              </a>
             </div>
           </div>
         </div>

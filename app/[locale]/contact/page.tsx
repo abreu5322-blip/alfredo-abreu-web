@@ -83,9 +83,8 @@ export default function ContactPage() {
                 <p className="text-sm text-midnight-navy/60 leading-relaxed mb-6">
                   {t('contact.calendly.desc')}
                 </p>
-                {/* TODO: Replace href with actual Calendly URL */}
                 <a
-                  href="https://calendly.com/alfredoabreu"
+                  href="https://calendly.com/abreu5322/30min"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary text-sm px-6 py-3 w-full"

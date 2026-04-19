@@ -126,9 +126,14 @@ export default async function BlogPage() {
           <p className="text-body text-white/60 mb-8 leading-relaxed">
             {t('home.finalCta.body')}
           </p>
-          <Link href="/audit" className="btn-primary text-base px-8 py-3.5">
+          <a
+            href="https://calendly.com/abreu5322/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-base px-8 py-3.5"
+          >
             {t('home.finalCta.ctaPrimary')}
-          </Link>
+          </a>
         </div>
       </section>
     </>

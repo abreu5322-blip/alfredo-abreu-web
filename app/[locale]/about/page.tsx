@@ -210,10 +210,15 @@ export default async function AboutPage() {
             {t('about.finalCta.h2Part1')}{' '}
             <span className="gradient-text">{t('about.finalCta.h2Highlight')}</span>
           </h2>
-          <Link href="/audit" className="btn-primary text-base px-8 py-3.5">
+          <a
+            href="https://calendly.com/abreu5322/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary text-base px-8 py-3.5"
+          >
             <Calendar size={18} />
             {t('nav.cta')}
-          </Link>
+          </a>
         </div>
       </section>
     </>
