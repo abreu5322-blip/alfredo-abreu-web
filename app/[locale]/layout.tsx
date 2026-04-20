@@ -3,6 +3,7 @@ import { DM_Sans } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { routing } from '@/i18n/routing'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -56,6 +57,9 @@ export default async function LocaleLayout({
           <main>{children}</main>
           <Footer />
         </NextIntlClientProvider>
+        {process.env.NODE_ENV === 'production' && (
+          <GoogleAnalytics gaId="G-2LYSDH7G3X" />
+        )}
       </body>
     </html>
   )
