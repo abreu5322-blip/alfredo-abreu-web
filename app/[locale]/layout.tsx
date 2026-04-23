@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { Analytics } from '@vercel/analytics/next'
 import { routing } from '@/i18n/routing'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -60,6 +61,7 @@ export default async function LocaleLayout({
         {process.env.NODE_ENV === 'production' && (
           <GoogleAnalytics gaId="G-2LYSDH7G3X" />
         )}
+        <Analytics />
       </body>
     </html>
   )
