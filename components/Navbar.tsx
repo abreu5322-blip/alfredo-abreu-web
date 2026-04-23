@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { Link, usePathname, useRouter } from '@/i18n/navigation'
-import { Menu, X } from 'lucide-react'
+import { Menu, X, ChevronDown } from 'lucide-react'
 
 export default function Navbar() {
   const t = useTranslations('nav')
@@ -12,6 +12,8 @@ export default function Navbar() {
   const router = useRouter()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [servicesOpen, setServicesOpen] = useState(false)
+  const dropdownTimeout = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 20)
@@ -24,13 +26,27 @@ export default function Navbar() {
     router.replace(pathname, { locale: next })
   }
 
+  const serviceSubLinks = [
+    { href: '/services', label: t('allServices') },
+    { href: '/services/seo-services-for-startups', label: t('seoForStartups') },
+  ]
+
   const links = [
-    { href: '/services', label: t('services') },
+    { href: '/services', label: t('services'), hasDropdown: true },
     { href: '/case-studies', label: t('caseStudies') },
     { href: '/about', label: t('about') },
     { href: '/blog', label: t('blog') },
     { href: '/contact', label: t('contact') },
   ]
+
+  function handleDropdownEnter() {
+    if (dropdownTimeout.current) clearTimeout(dropdownTimeout.current)
+    setServicesOpen(true)
+  }
+
+  function handleDropdownLeave() {
+    dropdownTimeout.current = setTimeout(() => setServicesOpen(false), 150)
+  }
 
   return (
     <header
@@ -56,15 +72,68 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-6">
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className="text-sm font-medium text-midnight-navy hover:text-royal-blue transition-colors no-underline"
-            >
-              {l.label}
-            </Link>
-          ))}
+          {links.map((l) =>
+            l.hasDropdown ? (
+              <div
+                key={l.href}
+                className="relative"
+                onMouseEnter={handleDropdownEnter}
+                onMouseLeave={handleDropdownLeave}
+              >
+                <Link
+                  href={l.href}
+                  className="text-sm font-medium text-midnight-navy hover:text-royal-blue transition-colors no-underline inline-flex items-center gap-1"
+                >
+                  {l.label}
+                  <ChevronDown
+                    size={14}
+                    className="transition-transform duration-200"
+                    style={{
+                      transform: servicesOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                    }}
+                  />
+                </Link>
+
+                {/* Dropdown */}
+                <div
+                  className="absolute top-full left-1/2 pt-2"
+                  style={{
+                    transform: 'translateX(-50%)',
+                    opacity: servicesOpen ? 1 : 0,
+                    pointerEvents: servicesOpen ? 'auto' : 'none',
+                    transition: 'opacity 0.2s ease, transform 0.2s ease',
+                  }}
+                >
+                  <div
+                    className="rounded-xl border border-soft-lilac/40 py-2 min-w-[220px]"
+                    style={{
+                      background: 'rgba(255,255,255,0.97)',
+                      backdropFilter: 'blur(16px)',
+                      boxShadow: '0 8px 32px rgba(50, 35, 214, 0.10), 0 2px 8px rgba(0,0,0,0.04)',
+                    }}
+                  >
+                    {serviceSubLinks.map((sub) => (
+                      <Link
+                        key={sub.href}
+                        href={sub.href}
+                        className="block px-4 py-2.5 text-sm text-midnight-navy hover:text-royal-blue hover:bg-soft-lilac/15 transition-colors no-underline"
+                      >
+                        {sub.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="text-sm font-medium text-midnight-navy hover:text-royal-blue transition-colors no-underline"
+              >
+                {l.label}
+              </Link>
+            )
+          )}
         </div>
 
         {/* Right side */}
@@ -99,16 +168,48 @@ export default function Navbar() {
       {/* Mobile drawer */}
       {mobileOpen && (
         <div className="md:hidden bg-white border-t border-soft-lilac/30 px-4 py-4 flex flex-col gap-4">
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className="text-base font-medium text-midnight-navy py-2 border-b border-soft-lilac/20 no-underline"
-              onClick={() => setMobileOpen(false)}
-            >
-              {l.label}
-            </Link>
-          ))}
+          {links.map((l) =>
+            l.hasDropdown ? (
+              <div key={l.href}>
+                <button
+                  onClick={() => setServicesOpen((v) => !v)}
+                  className="w-full flex items-center justify-between text-base font-medium text-midnight-navy py-2 border-b border-soft-lilac/20"
+                >
+                  {l.label}
+                  <ChevronDown
+                    size={16}
+                    className="transition-transform duration-200"
+                    style={{
+                      transform: servicesOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                    }}
+                  />
+                </button>
+                {servicesOpen && (
+                  <div className="pl-4 flex flex-col gap-1 mt-1">
+                    {serviceSubLinks.map((sub) => (
+                      <Link
+                        key={sub.href}
+                        href={sub.href}
+                        className="text-sm text-midnight-navy/70 hover:text-royal-blue py-1.5 no-underline transition-colors"
+                        onClick={() => setMobileOpen(false)}
+                      >
+                        {sub.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="text-base font-medium text-midnight-navy py-2 border-b border-soft-lilac/20 no-underline"
+                onClick={() => setMobileOpen(false)}
+              >
+                {l.label}
+              </Link>
+            )
+          )}
           <div className="flex items-center gap-3 pt-2">
             <button
               onClick={() => { toggleLocale(); setMobileOpen(false) }}

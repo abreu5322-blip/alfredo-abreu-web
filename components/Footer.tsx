@@ -41,8 +41,22 @@ export default function Footer() {
               {t('footer.nav')}
             </p>
             <nav className="flex flex-col gap-3">
+              {/* Services — parent */}
+              <Link
+                href="/services"
+                className="text-sm text-white/60 hover:text-white transition-colors no-underline"
+              >
+                {t('nav.services')}
+              </Link>
+              {/* Services — sub-item (indented) */}
+              <Link
+                href="/services/seo-services-for-startups"
+                className="text-sm text-white/45 hover:text-white transition-colors no-underline pl-4 border-l border-white/15"
+              >
+                {t('nav.seoForStartups')}
+              </Link>
+
               {[
-                { href: '/services', label: t('nav.services') },
                 { href: '/case-studies', label: t('nav.caseStudies') },
                 { href: '/about', label: t('nav.about') },
                 { href: '/blog', label: t('nav.blog') },
