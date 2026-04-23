@@ -212,6 +212,14 @@
       "h2Highlight": "Empieza con la auditoría.",
       "body": "Una auditoría estratégica de $500 te dirá exactamente dónde estás, qué te frena y qué plan tiene sentido para tu situación específica.",
       "cta": "Agendar Auditoría Gratis de 30 min"
+    },
+    "specialized": {
+      "eyebrow": "SERVICIOS ESPECIALIZADOS",
+      "h2Part1": "¿Necesitas una",
+      "h2Highlight": "solución más enfocada?",
+      "card1Title": "Servicios SEO para Startups",
+      "card1Desc": "Un sistema SEO dedicado para startups en etapa temprana y de crecimiento. Velocidad, foco y ROI medible — sin el bloat de una agencia.",
+      "card1Cta": "Saber Más →"
     }
   },
   "caseStudies": {
@@ -389,6 +397,167 @@
     "nav": "Navegación",
     "legal": "© 2026 Alfredo Abreu. Todos los derechos reservados.",
     "madeWith": "Construido con Next.js & Tailwind CSS"
+  },
+  "startupSeo": {
+    "meta": {
+      "title": "Servicios SEO para Startups | Alfredo Abreu — Consultor SEO B2B",
+      "description": "SEO basado en datos para startups que convierte tráfico orgánico en revenue. SEO técnico, estrategia de contenido y optimización para AI search diseñado para startups en etapa temprana y de crecimiento."
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "current": "Servicios SEO para Startups"
+    },
+    "hero": {
+      "eyebrow": "SERVICIOS SEO PARA STARTUPS",
+      "h1Part1": "SEO para startups que genera",
+      "h1Highlight": "revenue real",
+      "h1Part2": "— no métricas de vanidad.",
+      "body": "La mayoría de las startups pierden meses en tácticas SEO que no mueven la aguja. Construyo sistemas de crecimiento orgánico diseñados para velocidad, eficiencia y ROI medible — ya sea que estés en pre-seed o Serie B.",
+      "ctaPrimary": "Agendar Auditoría SEO Gratis",
+      "ctaGhost": "Ver Casos de Éxito →",
+      "trustBar": "Startups que confían en mí: SaaS · Fintech · BPO · Nearshoring · E-commerce"
+    },
+    "problem": {
+      "eyebrow": "LA REALIDAD DE LAS STARTUPS",
+      "h2Part1": "Las startups no necesitan más blog posts. Necesitan un",
+      "h2Highlight": "motor de revenue orgánico.",
+      "leftTitle": "Lo que la mayoría de agencias SEO venden a startups",
+      "leftItems": [
+        "Investigación genérica de keywords sin contexto de negocio",
+        "10 blog posts al mes que nadie lee",
+        "Reportes mensuales llenos de métricas de vanidad (impresiones, rankings)",
+        "Account managers junior que no entienden tu producto",
+        "Contratos de 12 meses antes de ver cualquier resultado"
+      ],
+      "rightTitle": "Lo que realmente mueve la aguja",
+      "rightItems": [
+        "Arquitectura de keywords orientada al revenue, mapeada a tu buyer journey",
+        "Contenido estratégico que rankea Y convierte (no contenido por contenido)",
+        "Reportes semanales atados a pipeline, leads y revenue",
+        "Ejecución senior — yo hago el trabajo, no un junior",
+        "Engagement mes a mes — los resultados ganan la relación"
+      ]
+    },
+    "approach": {
+      "eyebrow": "MI ENFOQUE PARA STARTUPS",
+      "h2Part1": "Un sistema SEO de 4 fases",
+      "h2Highlight": "construido para la velocidad de una startup.",
+      "subhead": "No hago auditorías de 6 meses. Empezamos a generar resultados en semanas, no en trimestres.",
+      "phase1Title": "Semana 1: Diagnóstico",
+      "phase1Desc": "Auditoría técnica, gaps de competidores y oportunidades de keywords mapeados a tu ICP y buyer journey.",
+      "phase2Title": "Semana 2: Plano",
+      "phase2Desc": "Roadmap priorizado a 90 días. Quick wins de alto impacto primero — porque las startups no pueden esperar 6 meses.",
+      "phase3Title": "Semana 3+: Ejecución",
+      "phase3Desc": "Correcciones técnicas, optimización de contenido, link building estratégico y posicionamiento en AI search — todo ejecutado por mí.",
+      "phase4Title": "Continuo: Medir y Escalar",
+      "phase4Desc": "Reportes semanales atados a tu north star metric. Lo que funciona se escala. Lo que no, se corta. Sin métricas de vanidad."
+    },
+    "included": {
+      "eyebrow": "QUÉ INCLUYE",
+      "h2Part1": "SEO full-stack para startups.",
+      "h2Part2": "Nada subcontratado.",
+      "card1Title": "SEO Técnico",
+      "card1Desc": "Velocidad del sitio, crawleabilidad, indexación, structured data y Core Web Vitals — el fundamento sobre el que se construye todo.",
+      "card2Title": "Arquitectura de Keywords",
+      "card2Desc": "Estrategia de keywords mapeada a revenue, alineada a tu ICP, buyer journey y landscape competitivo.",
+      "card3Title": "Estrategia de Contenido",
+      "card3Desc": "Blog posts, landing pages y contenido pilar que rankea y convierte — escrito para humanos, optimizado para Google.",
+      "card4Title": "Link Building",
+      "card4Desc": "Construcción de autoridad estratégica a través de backlinks de calidad, submissions en nichos y PR — sin spam, sin PBNs.",
+      "card5Title": "Optimización para AI Search",
+      "card5Desc": "Aparece en ChatGPT, Perplexity, Gemini y Google AI Overviews. LLMs.txt, schema y contenido de autoridad.",
+      "card6Title": "Reportes de Revenue",
+      "card6Desc": "Reportes semanales de actividad + análisis mensuales atados a pipeline, leads y revenue — no solo tráfico."
+    },
+    "pricing": {
+      "eyebrow": "PLANES SEO PARA STARTUPS",
+      "h2": "Planes flexibles para cada etapa.",
+      "subhead": "Todos los planes incluyen las mismas actividades. La diferencia está en la intensidad del link building y la velocidad de ejecución.",
+      "plan1Name": "Auditoría SEO",
+      "plan1Price": "$500",
+      "plan1Period": "única vez",
+      "plan1Tag": "Empieza aquí",
+      "plan1Features": [
+        "Auditoría técnica + de contenido completa",
+        "Análisis de competidores (top 3)",
+        "Roadmap priorizado de 90 días",
+        "Llamada estratégica de 60 min"
+      ],
+      "plan1Cta": "Obtener Auditoría →",
+      "plan2Name": "SEO Mensual",
+      "plan2Price": "Desde $1,000",
+      "plan2Period": "/mes",
+      "plan2Tag": "Más Popular",
+      "plan2Features": [
+        "Ejecución SEO de servicio completo",
+        "Técnico + contenido + link building",
+        "Reportes semanales + reporte mensual GA4",
+        "Ejecución senior end-to-end",
+        "Mes a mes, cancela cuando quieras"
+      ],
+      "plan2Cta": "Empezar a Crecer →",
+      "plan3Name": "Hyper Growth",
+      "plan3Price": "$1,500",
+      "plan3Period": "/mes",
+      "plan3Tag": "Máxima velocidad",
+      "plan3Features": [
+        "Todo lo del SEO Mensual",
+        "Máxima intensidad de link building",
+        "Producción de contenido acelerada",
+        "Soporte prioritario",
+        "Distribución premium de PR"
+      ],
+      "plan3Cta": "Acelerar el Crecimiento →",
+      "allPlansLink": "Ver todos los planes →"
+    },
+    "whyMe": {
+      "eyebrow": "POR QUÉ YO",
+      "h2Part1": "No soy una agencia.",
+      "h2Part2": "Ese es el",
+      "h2Highlight": "punto.",
+      "card1Title": "Ejecución senior, no delegación",
+      "card1Desc": "En las agencias, tu estrategia la diseña un senior y la ejecuta un junior. Conmigo, el senior hace el trabajo.",
+      "card2Title": "Ventaja bilingüe",
+      "card2Desc": "Entiendo tanto el mercado de USA como el de LatAm de forma nativa. Si tu startup atiende ambos, soy tu ventaja competitiva.",
+      "card3Title": "Mentalidad de ingeniería",
+      "card3Desc": "Formación en Ingeniería Eléctrica. Trato el SEO como un sistema — inputs, outputs, feedback loops. Datos sobre opiniones."
+    },
+    "results": {
+      "eyebrow": "RESULTADOS",
+      "h2": "Números de clientes reales.",
+      "stat1Value": "$10.5M",
+      "stat1Label": "Deal enterprise cerrado vía orgánico",
+      "stat2Value": "+168%",
+      "stat2Label": "Tráfico orgánico en 6 meses",
+      "stat3Value": "+208%",
+      "stat3Label": "Usuarios nuevos desde SEO",
+      "stat4Value": "+55%",
+      "stat4Label": "Revenue desde orgánico",
+      "cta": "Ver todos los casos de éxito →"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "h2Part1": "Preguntas frecuentes de",
+      "h2Highlight": "founders de startups.",
+      "q1": "¿Cuánto tiempo hasta ver resultados?",
+      "a1": "Verás mejoras técnicas y quick wins en las semanas 2-4. Mejoras significativas en tráfico y rankings ocurren típicamente en los meses 2-3. El impacto en revenue depende de tu ciclo de ventas, pero la mayoría de clientes ven contribución medible al pipeline para el mes 4.",
+      "q2": "¿Hay compromiso mínimo?",
+      "a2": "No. Engagement mes a mes. Me gano la relación a través de resultados, no contratos. Cualquier parte puede cancelar en cualquier momento.",
+      "q3": "¿Qué pasa si ya tengo una persona de marketing in-house?",
+      "a3": "Perfecto — trabajo junto a tu equipo, no en contra. Me encargo de la ejecución técnica y la estrategia SEO mientras tu marketer se enfoca en marca, social y otros canales. También los capacito para que las capacidades internas crezcan.",
+      "q4": "¿Trabajas con startups pre-revenue?",
+      "a4": "Sí, pero soy transparente: si aún no tienes product-market fit, el SEO podría no ser tu canal de mayor leverage ahora. Te diré honestamente en la auditoría gratuita si el SEO es la inversión correcta en tu etapa.",
+      "q5": "¿Qué herramientas usas?",
+      "a5": "Google Search Console, GA4, Ahrefs, Semrush, Screaming Frog, Surfer y herramientas de IA (ChatGPT, Claude) para optimización de contenido. Todos los datos se comparten contigo de forma transparente.",
+      "q6": "¿Qué hace diferente tu SEO para startups vs enterprises?",
+      "a6": "Velocidad y foco. Las enterprises pueden esperar 12 meses y optimizar 500 páginas. Las startups necesitan identificar las 10 páginas que más importan y hacerlas rankear rápido. Mi enfoque prioriza el impacto en revenue por hora invertida."
+    },
+    "finalCta": {
+      "h2": "¿Listo para construir el motor de crecimiento orgánico de tu startup?",
+      "body": "Agenda una auditoría gratuita de 30 minutos. Reviso tu sitio, identifico las 3 oportunidades de mayor impacto y te digo honestamente si el SEO es la jugada correcta para tu etapa.",
+      "cta": "Agendar Auditoría SEO para Startups →"
+    }
   },
   "caseStudy": {
     "theClient": "El Cliente",

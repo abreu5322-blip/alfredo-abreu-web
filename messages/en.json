@@ -212,6 +212,14 @@
       "h2Highlight": "Start with the audit.",
       "body": "A $500 strategy audit will tell you exactly where you stand, what's holding you back, and which plan makes sense for your specific situation.",
       "cta": "Book Free 30-min Audit"
+    },
+    "specialized": {
+      "eyebrow": "SPECIALIZED SERVICES",
+      "h2Part1": "Need a more focused",
+      "h2Highlight": "solution?",
+      "card1Title": "SEO Services for Startups",
+      "card1Desc": "A dedicated SEO system built for early-stage and growth-stage startups. Speed, focus, and measurable ROI — no agency bloat.",
+      "card1Cta": "Learn More →"
     }
   },
   "caseStudies": {
@@ -389,6 +397,167 @@
     "nav": "Navigation",
     "legal": "© 2026 Alfredo Abreu. All rights reserved.",
     "madeWith": "Built with Next.js & Tailwind CSS"
+  },
+  "startupSeo": {
+    "meta": {
+      "title": "SEO Services for Startups | Alfredo Abreu — B2B SEO Consultant",
+      "description": "Data-driven SEO for startups that turns organic traffic into revenue. Technical SEO, content strategy, and AI search optimization engineered for early-stage and growth-stage startups."
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "services": "Services",
+      "current": "SEO Services for Startups"
+    },
+    "hero": {
+      "eyebrow": "SEO SERVICES FOR STARTUPS",
+      "h1Part1": "SEO for startups that drives",
+      "h1Highlight": "real revenue",
+      "h1Part2": "— not vanity metrics.",
+      "body": "Most startups waste months on SEO tactics that don't move the needle. I build organic growth systems engineered for speed, efficiency, and measurable ROI — whether you're pre-seed or Series B.",
+      "ctaPrimary": "Book Free Startup SEO Audit",
+      "ctaGhost": "See Case Studies →",
+      "trustBar": "Trusted by startups in: SaaS · Fintech · BPO · Nearshoring · E-commerce"
+    },
+    "problem": {
+      "eyebrow": "THE STARTUP REALITY",
+      "h2Part1": "Startups don't need more blog posts. They need an",
+      "h2Highlight": "organic revenue engine.",
+      "leftTitle": "What most SEO agencies sell startups",
+      "leftItems": [
+        "Generic keyword research with no business context",
+        "10 blog posts per month that nobody reads",
+        "Monthly reports full of vanity metrics (impressions, rankings)",
+        "Junior account managers who don't understand your product",
+        "12-month contracts before you see any results"
+      ],
+      "rightTitle": "What actually moves the needle",
+      "rightItems": [
+        "Revenue-first keyword architecture mapped to your buyer journey",
+        "Strategic content that ranks AND converts (not content for content's sake)",
+        "Weekly reporting tied to pipeline, leads, and revenue",
+        "Senior execution — I do the work, not a junior",
+        "Month-to-month engagement — results earn the relationship"
+      ]
+    },
+    "approach": {
+      "eyebrow": "MY APPROACH FOR STARTUPS",
+      "h2Part1": "A 4-phase SEO system",
+      "h2Highlight": "built for startup speed.",
+      "subhead": "I don't do 6-month audits. We start driving results in weeks, not quarters.",
+      "phase1Title": "Week 1: Diagnose",
+      "phase1Desc": "Technical audit, competitor gaps, and keyword opportunities mapped to your ICP and buyer journey.",
+      "phase2Title": "Week 2: Blueprint",
+      "phase2Desc": "Prioritized 90-day roadmap. High-impact, low-effort wins first — because startups can't wait 6 months.",
+      "phase3Title": "Week 3+: Build",
+      "phase3Desc": "Technical fixes, content optimization, strategic link building, and AI search positioning — all executed by me.",
+      "phase4Title": "Continuous: Measure & Scale",
+      "phase4Desc": "Weekly reports tied to your north star metric. What works gets scaled. What doesn't gets cut. No vanity metrics."
+    },
+    "included": {
+      "eyebrow": "WHAT YOU GET",
+      "h2Part1": "Full-stack SEO for startups.",
+      "h2Part2": "Nothing outsourced.",
+      "card1Title": "Technical SEO",
+      "card1Desc": "Site speed, crawlability, indexation, structured data, and Core Web Vitals — the foundation everything else builds on.",
+      "card2Title": "Keyword Architecture",
+      "card2Desc": "Revenue-mapped keyword strategy aligned to your ICP, buyer journey, and competitive landscape.",
+      "card3Title": "Content Strategy",
+      "card3Desc": "Blog posts, landing pages, and pillar content that ranks and converts — written for humans, optimized for Google.",
+      "card4Title": "Link Building",
+      "card4Desc": "Strategic authority building through quality backlinks, niche submissions, and PR — no spam, no PBNs.",
+      "card5Title": "AI Search Optimization",
+      "card5Desc": "Get cited in ChatGPT, Perplexity, Gemini, and Google AI Overviews. LLMs.txt, schema, and authority content.",
+      "card6Title": "Revenue Reporting",
+      "card6Desc": "Weekly activity reports + monthly deep dives tied to pipeline, leads, and revenue — not just traffic."
+    },
+    "pricing": {
+      "eyebrow": "STARTUP SEO PLANS",
+      "h2": "Flexible plans for every stage.",
+      "subhead": "All plans include the same activities. The difference is in link building intensity and execution speed.",
+      "plan1Name": "SEO Audit",
+      "plan1Price": "$500",
+      "plan1Period": "one-time",
+      "plan1Tag": "Start here",
+      "plan1Features": [
+        "Complete technical + content audit",
+        "Competitor analysis (top 3)",
+        "90-day prioritized roadmap",
+        "60-min strategy call"
+      ],
+      "plan1Cta": "Get Your Audit →",
+      "plan2Name": "Monthly SEO",
+      "plan2Price": "From $1,000",
+      "plan2Period": "/mo",
+      "plan2Tag": "Most Popular",
+      "plan2Features": [
+        "Full-service SEO execution",
+        "Technical + content + link building",
+        "Weekly reports + monthly GA4 report",
+        "Senior execution end-to-end",
+        "Month-to-month, cancel anytime"
+      ],
+      "plan2Cta": "Start Growing →",
+      "plan3Name": "Hyper Growth",
+      "plan3Price": "$1,500",
+      "plan3Period": "/mo",
+      "plan3Tag": "Maximum velocity",
+      "plan3Features": [
+        "Everything in Monthly SEO",
+        "Maximum link building intensity",
+        "Accelerated content production",
+        "Priority support",
+        "Premium PR distribution"
+      ],
+      "plan3Cta": "Accelerate Growth →",
+      "allPlansLink": "See all service plans →"
+    },
+    "whyMe": {
+      "eyebrow": "WHY ME",
+      "h2Part1": "I'm not an agency.",
+      "h2Part2": "That's the",
+      "h2Highlight": "point.",
+      "card1Title": "Senior execution, not delegation",
+      "card1Desc": "At agencies, your strategy is built by a senior then handed to a junior. With me, the senior does the work.",
+      "card2Title": "Bilingual advantage",
+      "card2Desc": "I understand both the US and LatAm markets natively. If your startup serves both, I'm your unfair advantage.",
+      "card3Title": "Engineering mindset",
+      "card3Desc": "Electrical engineering background. I treat SEO as a system — inputs, outputs, feedback loops. Data over opinions."
+    },
+    "results": {
+      "eyebrow": "RESULTS",
+      "h2": "Numbers from real clients.",
+      "stat1Value": "$10.5M",
+      "stat1Label": "Enterprise deal closed from organic",
+      "stat2Value": "+168%",
+      "stat2Label": "Organic traffic in 6 months",
+      "stat3Value": "+208%",
+      "stat3Label": "New users from SEO",
+      "stat4Value": "+55%",
+      "stat4Label": "Revenue from organic",
+      "cta": "See all case studies →"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "h2Part1": "Common questions from",
+      "h2Highlight": "startup founders.",
+      "q1": "How long until I see results?",
+      "a1": "You'll see technical improvements and quick wins in weeks 2-4. Meaningful traffic and ranking improvements typically happen in months 2-3. Revenue impact depends on your sales cycle, but most clients see measurable pipeline contribution by month 4.",
+      "q2": "Is there a minimum commitment?",
+      "a2": "No. Month-to-month engagement. I earn the relationship through results, not contracts. Either party can cancel at any time.",
+      "q3": "What if I already have an in-house marketing person?",
+      "a3": "Great — I work alongside your team, not against them. I handle the technical SEO execution and strategy while your marketer focuses on brand, social, and other channels. I also train them so your internal capabilities grow.",
+      "q4": "Do you work with pre-revenue startups?",
+      "a4": "Yes, but I'm transparent: if you don't have product-market fit yet, SEO might not be your highest-leverage channel right now. I'll tell you honestly in the free audit whether SEO is the right investment at your stage.",
+      "q5": "What tools do you use?",
+      "a5": "Google Search Console, GA4, Ahrefs, Semrush, Screaming Frog, Surfer, and AI tools (ChatGPT, Claude) for content optimization. All data is shared with you transparently.",
+      "q6": "What makes your SEO different for startups vs enterprises?",
+      "a6": "Speed and focus. Enterprises can afford to wait 12 months and optimize 500 pages. Startups need to identify the 10 pages that matter most and make them rank fast. My approach prioritizes revenue impact per hour invested."
+    },
+    "finalCta": {
+      "h2": "Ready to build your startup's organic growth engine?",
+      "body": "Book a free 30-minute audit. I'll review your site, identify the 3 highest-impact opportunities, and tell you honestly whether SEO is the right play for your stage.",
+      "cta": "Book Free Startup SEO Audit →"
+    }
   },
   "caseStudy": {
     "theClient": "The Client",

@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import FloatingTriangles from '@/components/FloatingTriangles'
-import { CheckCircle, ChevronDown, ChevronUp, Calendar } from 'lucide-react'
+import { CheckCircle, ChevronDown, ChevronUp, Calendar, ArrowRight } from 'lucide-react'
 
 const serviceSchema = {
   '@context': 'https://schema.org',
@@ -302,6 +302,41 @@ export default function ServicesPage() {
             ].map(({ q, a }) => (
               <Accordion key={q} q={q} a={a} />
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SPECIALIZED SERVICES */}
+      <section className="relative bg-soft-lilac/10 py-16 overflow-hidden">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="text-eyebrow uppercase tracking-[0.08em] text-lavender-blue font-medium mb-3">
+              {t('services.specialized.eyebrow')}
+            </p>
+            <h2 className="text-[28px] lg:text-[34px] font-bold tracking-[-0.015em] text-midnight-navy">
+              {t('services.specialized.h2Part1')}{' '}
+              <span className="gradient-text">{t('services.specialized.h2Highlight')}</span>
+            </h2>
+          </div>
+
+          <div className="max-w-md mx-auto">
+            <div className="gradient-border">
+              <div className="p-7">
+                <h3 className="font-bold text-midnight-navy text-lg mb-3">
+                  {t('services.specialized.card1Title')}
+                </h3>
+                <p className="text-sm text-midnight-navy/60 leading-relaxed mb-6">
+                  {t('services.specialized.card1Desc')}
+                </p>
+                <Link
+                  href="/services/seo-services-for-startups"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-royal-blue hover:text-lavender-blue transition-colors no-underline"
+                >
+                  {t('services.specialized.card1Cta')}
+                  <ArrowRight size={14} />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

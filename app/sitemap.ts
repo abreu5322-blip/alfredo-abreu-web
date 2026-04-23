@@ -5,7 +5,16 @@ import { caseStudies } from '@/lib/case-studies'
 const BASE_URL = 'https://alfredoabreu.com'
 const locales = ['en', 'es'] as const
 
-const staticRoutes = ['', '/services', '/case-studies', '/about', '/contact', '/audit', '/blog']
+const staticRoutes = [
+  '',
+  '/services',
+  '/services/seo-services-for-startups',
+  '/case-studies',
+  '/about',
+  '/contact',
+  '/audit',
+  '/blog',
+]
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = []
