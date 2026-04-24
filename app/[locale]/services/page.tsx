@@ -319,7 +319,7 @@ export default function ServicesPage() {
             </h2>
           </div>
 
-          <div className="max-w-md mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             <div className="gradient-border">
               <div className="p-7">
                 <h3 className="font-bold text-midnight-navy text-lg mb-3">
@@ -333,6 +333,23 @@ export default function ServicesPage() {
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-royal-blue hover:text-lavender-blue transition-colors no-underline"
                 >
                   {t('services.specialized.card1Cta')}
+                  <ArrowRight size={14} />
+                </Link>
+              </div>
+            </div>
+            <div className="gradient-border">
+              <div className="p-7">
+                <h3 className="font-bold text-midnight-navy text-lg mb-3">
+                  {t('services.specialized.card2Title')}
+                </h3>
+                <p className="text-sm text-midnight-navy/60 leading-relaxed mb-6">
+                  {t('services.specialized.card2Desc')}
+                </p>
+                <Link
+                  href="/services/generative-engine-optimization-services"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-royal-blue hover:text-lavender-blue transition-colors no-underline"
+                >
+                  {t('services.specialized.card2Cta')}
                   <ArrowRight size={14} />
                 </Link>
               </div>

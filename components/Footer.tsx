@@ -55,6 +55,12 @@ export default function Footer() {
               >
                 {t('nav.seoForStartups')}
               </Link>
+              <Link
+                href="/services/generative-engine-optimization-services"
+                className="text-sm text-white/45 hover:text-white transition-colors no-underline pl-4 border-l border-white/15"
+              >
+                {t('nav.geoServices')}
+              </Link>
 
               {[
                 { href: '/case-studies', label: t('nav.caseStudies') },

@@ -9,6 +9,7 @@ const staticRoutes = [
   '',
   '/services',
   '/services/seo-services-for-startups',
+  '/services/generative-engine-optimization-services',
   '/case-studies',
   '/about',
   '/contact',

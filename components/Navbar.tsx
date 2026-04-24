@@ -29,6 +29,7 @@ export default function Navbar() {
   const serviceSubLinks = [
     { href: '/services', label: t('allServices') },
     { href: '/services/seo-services-for-startups', label: t('seoForStartups') },
+    { href: '/services/generative-engine-optimization-services', label: t('geoServices') },
   ]
 
   const links = [

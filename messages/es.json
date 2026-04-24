@@ -3,6 +3,7 @@
     "services": "Servicios",
     "seoForStartups": "SEO para Startups",
     "allServices": "Todos los Servicios",
+    "geoServices": "Generative Engine Optimization",
     "caseStudies": "Casos de Éxito",
     "about": "Sobre Mí",
     "blog": "Blog",
@@ -221,7 +222,10 @@
       "h2Highlight": "solución más enfocada?",
       "card1Title": "Servicios SEO para Startups",
       "card1Desc": "Un sistema SEO dedicado para startups en etapa temprana y de crecimiento. Velocidad, foco y ROI medible — sin el bloat de una agencia.",
-      "card1Cta": "Saber Más →"
+      "card1Cta": "Saber Más →",
+      "card2Title": "Generative Engine Optimization",
+      "card2Desc": "Haz que tu marca sea citada por ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews. Servicios GEO diseñados para visibilidad en AI search.",
+      "card2Cta": "Saber Más →"
     }
   },
   "caseStudies": {
@@ -572,5 +576,184 @@
     "ctaTitle": "¿Quieres resultados como estos?",
     "ctaDesc": "Agenda una auditoría gratuita de 30 min y te mostraré exactamente qué es posible para tu negocio.",
     "ctaButton": "Agendar Auditoría Gratis"
+  },
+  "geoServices": {
+    "meta": {
+      "title": "Servicios de Generative Engine Optimization | Alfredo Abreu — Consultor SEO B2B",
+      "description": "Haz que tu marca sea citada por ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews. Servicios de Generative Engine Optimization (GEO) diseñados para visibilidad B2B en motores de búsqueda con IA."
+    },
+    "breadcrumb": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "current": "Servicios de Generative Engine Optimization"
+    },
+    "hero": {
+      "eyebrow": "SERVICIOS DE GENERATIVE ENGINE OPTIMIZATION",
+      "h1Part1": "Haz que tu marca sea citada por",
+      "h1Highlight": "motores de búsqueda con IA.",
+      "body": "Google ya no es el único motor de búsqueda que importa. ChatGPT, Perplexity, Gemini y Copilot están respondiendo las preguntas de tus clientes ahora mismo — y si tu marca no está en esas respuestas, tus competidores sí. Diseño tu contenido para que sea citado, referenciado y recomendado por la IA.",
+      "ctaPrimary": "Agendar Auditoría GEO Gratis",
+      "ctaGhost": "Ver Casos de Éxito →",
+      "metric1Value": "770+",
+      "metric1Label": "Citas en IA en 5 motores",
+      "metric2Value": "5",
+      "metric2Label": "Motores de IA optimizados",
+      "metric3Value": "$14.85M+",
+      "metric3Label": "Revenue generado para clientes"
+    },
+    "shift": {
+      "eyebrow": "LA NUEVA REALIDAD",
+      "h2Part1": "Tus clientes ya usan IA para encontrar soluciones.",
+      "h2Highlight": "¿Tu marca está en esas respuestas?",
+      "body": "Generative Engine Optimization (GEO) es la disciplina de diseñar el contenido, la autoridad y los datos estructurados de tu marca para que los modelos de lenguaje te citen cuando responden preguntas. No reemplaza el SEO tradicional — es la siguiente capa encima de él.",
+      "engine1Name": "Google AI Overviews",
+      "engine1Desc": "La nueva posición #1 en SERPs",
+      "engine2Name": "ChatGPT",
+      "engine2Desc": "200M+ usuarios semanales",
+      "engine3Name": "Perplexity",
+      "engine3Desc": "El AI search de más rápido crecimiento",
+      "engine4Name": "Gemini",
+      "engine4Desc": "Integrado en todo el ecosistema Google",
+      "engine5Name": "Copilot",
+      "engine5Desc": "Integrado en Windows + Edge"
+    },
+    "comparison": {
+      "eyebrow": "GEO vs SEO",
+      "h2Part1": "El SEO tradicional te posiciona. GEO hace que te",
+      "h2Highlight": "citen.",
+      "leftTitle": "SEO Tradicional",
+      "leftItems": [
+        "Optimiza para el algoritmo de Google",
+        "Objetivo: rankear en página 1 de SERPs",
+        "Métrica de éxito: clics e impresiones",
+        "El contenido necesita ser crawleado e indexado",
+        "Compite por 10 links azules"
+      ],
+      "rightTitle": "Generative Engine Optimization",
+      "rightItems": [
+        "Optimiza para la lógica de citación de LLMs",
+        "Objetivo: ser citado en respuestas generadas por IA",
+        "Métrica de éxito: citas y menciones en motores de IA",
+        "El contenido necesita ser legible por máquinas y autoritativo",
+        "Compite por la única respuesta generada por IA"
+      ],
+      "bottomNote": "La mejor estrategia combina ambas. Yo lo hago."
+    },
+    "method": {
+      "eyebrow": "MI MÉTODO GEO",
+      "h2Part1": "Un sistema de 4 pilares para que tu marca sea",
+      "h2Highlight": "citada por IA.",
+      "phase1Title": "Schemas de Datos Estructurados Personalizados",
+      "phase1Desc": "Diseño datos estructurados que hacen tu contenido legible por máquinas y listo para ser citado por LLMs. Schema de organización, FAQ, HowTo y schemas personalizados para tu industria.",
+      "phase2Title": "Robots.txt Optimizado para Crawlers de IA",
+      "phase2Desc": "Configuro tu robots.txt para permitir y priorizar los crawlers de IA correctos — GPTBot, PerplexityBot, Google-Extended, ClaudeBot — para que puedan acceder y citar tu contenido.",
+      "phase3Title": "Implementación de LLMs.txt",
+      "phase3Desc": "Creo y despliego un archivo LLMs.txt dedicado que le dice a los motores de IA exactamente qué es tu sitio, qué ofrece, qué lo hace autoritativo y cómo citarlo. Piensa en él como una carta de presentación para la IA.",
+      "phase4Title": "Tracking de Citas en IA e Iteración",
+      "phase4Desc": "Monitoreo las menciones y citas de tu marca en ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews usando el tracking de citas de IA de Ahrefs. Lo que se cita se duplica. Lo que no, se rediseña."
+    },
+    "included": {
+      "eyebrow": "QUÉ INCLUYE",
+      "h2": "Todo lo que necesitas para dominar la búsqueda por IA.",
+      "card1Title": "Auditoría de AI Search",
+      "card1Desc": "Análisis completo de tu visibilidad actual en AI search — dónde te citan, dónde faltas y dónde aparecen tus competidores en tu lugar.",
+      "card2Title": "Ingeniería de Datos Estructurados",
+      "card2Desc": "Schemas JSON-LD personalizados diseñados para hacer tu contenido la opción más legible por máquinas en tu industria.",
+      "card3Title": "LLMs.txt y Configuración IA",
+      "card3Desc": "Archivos dedicados para IA (LLMs.txt, robots.txt optimizado) que guían a los motores de IA hacia tu contenido más autoritativo.",
+      "card4Title": "Estrategia de Contenido de Autoridad",
+      "card4Desc": "Contenido diseñado para ser citado — no solo posicionado. Guías definitivas, investigación respaldada por datos y artículos posicionados como experto.",
+      "card5Title": "Monitoreo de Citas",
+      "card5Desc": "Tracking mensual de las citas de tu marca en ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews vía Ahrefs.",
+      "card6Title": "Base de SEO Tradicional",
+      "card6Desc": "GEO no reemplaza al SEO — se construye encima. SEO técnico, link building y optimización de contenido incluidos para que tanto Google como los motores de IA confíen en tu sitio."
+    },
+    "results": {
+      "eyebrow": "RESULTADOS COMPROBADOS",
+      "h2Part1": "770+ citas en IA en 5 motores —",
+      "h2Highlight": "y creciendo.",
+      "engine1Name": "Google AI Overviews",
+      "engine1Citations": "114",
+      "engine1Pages": "27",
+      "engine2Name": "ChatGPT",
+      "engine2Citations": "37",
+      "engine2Pages": "46",
+      "engine3Name": "Perplexity",
+      "engine3Citations": "75",
+      "engine3Pages": "21",
+      "engine4Name": "Gemini",
+      "engine4Citations": "145",
+      "engine4Pages": "23",
+      "engine5Name": "Copilot",
+      "engine5Citations": "64",
+      "engine5Pages": "18",
+      "citationsLabel": "citas",
+      "pagesLabel": "páginas",
+      "cta": "Ver todos los casos de éxito →"
+    },
+    "pricing": {
+      "eyebrow": "PLANES GEO",
+      "h2": "Dos formas de empezar con GEO.",
+      "plan1Name": "Auditoría GEO",
+      "plan1Price": "$500",
+      "plan1Period": "única vez",
+      "plan1Features": [
+        "Análisis completo de visibilidad en AI search",
+        "Comparación de citas de IA con competidores",
+        "Evaluación de brechas en datos estructurados",
+        "Revisión de LLMs.txt y robots.txt",
+        "Roadmap GEO de 90 días",
+        "Llamada estratégica de 60 min"
+      ],
+      "plan1Cta": "Obtener Auditoría GEO →",
+      "plan2Name": "GEO + SEO Completo",
+      "plan2Price": "Desde $1,200",
+      "plan2Period": "/mes",
+      "plan2Tag": "Recomendado",
+      "plan2Features": [
+        "Todo lo de la auditoría, más:",
+        "Optimización mensual de datos estructurados",
+        "Despliegue e iteración de LLMs.txt",
+        "Creación y optimización de contenido de autoridad",
+        "Monitoreo de citas de IA en 5 motores",
+        "SEO tradicional (técnico + contenido + links) incluido",
+        "Reportes semanales + reporte mensual de citas IA",
+        "Mes a mes, cancela cuando quieras"
+      ],
+      "plan2Cta": "Empezar GEO + SEO →",
+      "allPlansLink": "Ver todos los planes →"
+    },
+    "future": {
+      "eyebrow": "EL FUTURO ES AHORA",
+      "h2Part1": "Para 2027, la búsqueda con IA manejará el 40% de todas las consultas.",
+      "h2Highlight": "¿Tu marca estará ahí?",
+      "card1Title": "El zero-click se expande",
+      "card1Desc": "Los AI Overviews y las respuestas generadas por IA significan que menos usuarios hacen clic a sitios web. Si no estás en la respuesta de IA, no existes.",
+      "card2Title": "La IA entrena con autoridad",
+      "card2Desc": "Los LLMs citan fuentes que perciben como autoritativas, bien estructuradas y confiables. Ingeniería de esa percepción es lo que hace GEO.",
+      "card3Title": "Los primeros ganan",
+      "card3Desc": "La mayoría de tus competidores no conocen GEO todavía. La ventana para establecer tu marca como la autoridad citada por IA en tu nicho es ahora."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "h2": "Preguntas sobre Generative Engine Optimization.",
+      "q1": "¿Qué es Generative Engine Optimization (GEO)?",
+      "a1": "GEO es la práctica de optimizar el contenido y la configuración técnica de tu marca para que los motores de búsqueda con IA — ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews — te citen y recomienden cuando responden consultas de usuarios. Es la evolución del SEO para la era de la IA.",
+      "q2": "¿Sigo necesitando SEO tradicional si hago GEO?",
+      "a2": "Sí. GEO se construye sobre el SEO tradicional — no lo reemplaza. Los motores de IA dependen enormemente de los rankings de Google, la autoridad de dominio y el perfil de backlinks para determinar qué fuentes citar. Una base sólida de SEO hace que GEO sea significativamente más efectivo.",
+      "q3": "¿Cómo rastrean las citas en IA?",
+      "a3": "Uso el tracking de citas de IA de Ahrefs para monitorear las menciones de tu marca en ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews. Recibes un reporte mensual mostrando cantidad de citas, qué páginas están siendo citadas y cómo tu visibilidad se compara con competidores.",
+      "q4": "¿Qué es LLMs.txt?",
+      "a4": "LLMs.txt es un archivo de texto dedicado colocado en tu sitio web (similar a robots.txt) que le dice a los motores de IA de qué se trata tu sitio, cuáles son tus ofertas clave y cómo citarte correctamente. Es como una carta de presentación estructurada específicamente para crawlers de IA.",
+      "q5": "¿Cuánto tiempo hasta ver citas en IA?",
+      "a5": "Depende de tu autoridad de dominio existente y calidad de contenido. Sitios con bases sólidas de SEO pueden empezar a aparecer en respuestas de IA dentro de 4-8 semanas de implementación GEO. Sitios nuevos o de baja autoridad pueden tomar 3-6 meses mientras construimos la base de SEO tradicional simultáneamente.",
+      "q6": "¿Puedes garantizar que mi marca será citada por ChatGPT?",
+      "a6": "No — y cualquiera que garantice citas en IA no está siendo honesto. Los motores de IA son no determinísticos y cambian constantemente. Lo que sí puedo garantizar es que tu sitio estará técnicamente optimizado, con contenido diseñado y posicionado en autoridad para maximizar tu probabilidad de ser citado. Mi track record de 770+ citas en 5 motores habla por sí solo."
+    },
+    "finalCta": {
+      "h2": "¿Listo para ser citado por la IA?",
+      "body": "Agenda una auditoría GEO gratuita de 30 minutos. Reviso tu visibilidad actual en AI search, te muestro dónde tus competidores están siendo citados y trazo un plan para que tu marca aparezca en las respuestas de IA.",
+      "cta": "Agendar Auditoría GEO Gratis →"
+    }
   }
 }
