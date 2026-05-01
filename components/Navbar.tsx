@@ -30,6 +30,7 @@ export default function Navbar() {
     { href: '/services', label: t('allServices') },
     { href: '/services/seo-services-for-startups', label: t('seoForStartups') },
     { href: '/services/generative-engine-optimization-services', label: t('geoServices') },
+    { href: '/services/seo-services-for-small-businesses', label: t('smallBusinessSeo') },
   ]
 
   const links = [
