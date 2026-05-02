@@ -29,6 +29,16 @@ export const metadata: Metadata = {
     siteName: 'Alfredo Abreu',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
+  icons: {
+    icon: [
+      { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+      { url: '/favicon.ico', sizes: '32x32' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
+  },
 }
 
 export function generateStaticParams() {
