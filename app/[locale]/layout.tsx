@@ -68,12 +68,12 @@ export default async function LocaleLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <TabVisibilityMessage />
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && (
           <GoogleAnalytics gaId="G-2LYSDH7G3X" />
         )}
         <Analytics />
-        <TabVisibilityMessage />
       </body>
     </html>
   )
