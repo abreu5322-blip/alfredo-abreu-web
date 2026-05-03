@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import { Link, usePathname, useRouter } from '@/i18n/navigation'
 import { Menu, X, ChevronDown } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Navbar() {
   const t = useTranslations('nav')
@@ -63,10 +64,18 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 no-underline">
+        <Link href="/" className="flex items-center gap-2.5 group no-underline hover:opacity-85 transition-opacity">
+          <Image
+            src="/images/Icon.png"
+            alt="Alfredo Abreu"
+            width={36}
+            height={36}
+            className="rounded-lg"
+            priority
+          />
           <span
-            className="text-xl font-bold tracking-tight"
-            style={{ color: '#3223D6' }}
+            className="font-bold text-midnight-navy"
+            style={{ fontFamily: 'DM Sans', fontSize: '18px', fontWeight: 700 }}
           >
             Alfredo Abreu
           </span>

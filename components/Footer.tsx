@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { Mail, MessageCircle } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Footer() {
   const t = useTranslations()
@@ -11,7 +12,21 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <p className="text-2xl font-bold text-white mb-3">Alfredo Abreu</p>
+            <Link href="/" className="flex items-center gap-2.5 mb-4 no-underline hover:opacity-90 transition-opacity">
+              <Image
+                src="/images/Icon.png"
+                alt="Alfredo Abreu"
+                width={40}
+                height={40}
+                className="rounded-lg"
+              />
+              <span
+                className="font-bold text-white"
+                style={{ fontFamily: 'DM Sans', fontSize: '18px', fontWeight: 700 }}
+              >
+                Alfredo Abreu
+              </span>
+            </Link>
             <p className="text-sm text-white/60 leading-relaxed">
               {t('footer.tagline')}
             </p>
