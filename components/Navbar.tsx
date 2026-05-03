@@ -64,18 +64,18 @@ export default function Navbar() {
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group no-underline hover:opacity-85 transition-opacity">
+        <Link href="/" className="flex items-center gap-3 group no-underline hover:opacity-85 transition-opacity">
           <Image
             src="/images/Icon.png"
             alt="Alfredo Abreu"
-            width={36}
-            height={36}
-            className="rounded-lg"
+            width={48}
+            height={48}
+            className="rounded-xl"
             priority
           />
           <span
             className="font-bold text-midnight-navy"
-            style={{ fontFamily: 'DM Sans', fontSize: '18px', fontWeight: 700 }}
+            style={{ fontFamily: 'DM Sans', fontSize: '20px', fontWeight: 700, letterSpacing: '-0.01em' }}
           >
             Alfredo Abreu
           </span>

@@ -12,17 +12,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <Link href="/" className="flex items-center gap-2.5 mb-4 no-underline hover:opacity-90 transition-opacity">
+            <Link href="/" className="flex items-center gap-3 mb-4 no-underline hover:opacity-90 transition-opacity">
               <Image
                 src="/images/Icon.png"
                 alt="Alfredo Abreu"
-                width={40}
-                height={40}
-                className="rounded-lg"
+                width={52}
+                height={52}
+                className="rounded-xl"
               />
               <span
                 className="font-bold text-white"
-                style={{ fontFamily: 'DM Sans', fontSize: '18px', fontWeight: 700 }}
+                style={{ fontFamily: 'DM Sans', fontSize: '20px', fontWeight: 700, letterSpacing: '-0.01em' }}
               >
                 Alfredo Abreu
               </span>

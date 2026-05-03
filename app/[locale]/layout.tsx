@@ -8,6 +8,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { routing } from '@/i18n/routing'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import { TabVisibilityMessage } from '@/components/TabVisibilityMessage'
 import '@/app/globals.css'
 
 const dmSans = DM_Sans({
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/icon.png', type: 'image/png', sizes: '512x512' },
-      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/favicon.ico', sizes: '64x64' },
     ],
     apple: [
       { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
@@ -72,6 +73,7 @@ export default async function LocaleLayout({
           <GoogleAnalytics gaId="G-2LYSDH7G3X" />
         )}
         <Analytics />
+        <TabVisibilityMessage />
       </body>
     </html>
   )

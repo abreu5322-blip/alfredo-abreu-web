@@ -1,4 +1,7 @@
 {
+  "tabMessage": {
+    "away": "¡Oye, Regresa! 👋"
+  },
   "nav": {
     "services": "Servicios",
     "seoForStartups": "SEO para Startups",
