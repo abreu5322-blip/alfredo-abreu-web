@@ -9,7 +9,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   return {
     title: 'About Alfredo Abreu — B2B SEO Consultant',
-    description: 'Bilingual B2B SEO consultant with an Electrical Engineering background. 6+ years, 31+ projects, $14.85M+ in client revenue attributed to organic search.',
+    description: 'Bilingual B2B SEO consultant with an Electrical Engineering background. 6+ years, 31+ projects, $14.85M+ in client revenue generated.',
     alternates: {
       canonical: `https://alfredoabreu.com/${locale}/about`,
       languages: {

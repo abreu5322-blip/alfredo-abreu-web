@@ -34,13 +34,13 @@
     },
     "stats": {
       "stat1Value": "$14.85M+",
-      "stat1Label": "In client revenue attributed to organic SEO",
+      "stat1Label": "Revenue generated",
       "stat2Value": "31+",
-      "stat2Label": "B2B projects delivered in US & LatAm",
+      "stat2Label": "Projects completed",
       "stat3Value": "6+",
-      "stat3Label": "Years in B2B SEO",
+      "stat3Label": "Years experience",
       "stat4Value": "168%",
-      "stat4Label": "Average organic traffic increase"
+      "stat4Label": "Avg. organic traffic lift"
     },
     "shift": {
       "eyebrow": "The 2026 SEO Reality",
@@ -86,7 +86,7 @@
       "h2Part2": "for a Nearshoring company.",
       "desc": "AXS is a nearshoring company serving the US market. Starting from a neglected site with toxic backlinks, we built a revenue-generating SEO program that directly attributed to closing their largest enterprise deal to date.",
       "metric1Value": "$10.5M",
-      "metric1Label": "Enterprise deal via organic",
+      "metric1Label": "Enterprise deal closed via organic",
       "metric2Value": "+168.79%",
       "metric2Label": "Organic clicks (6 months)",
       "metric3Value": "+156.33%",
@@ -279,9 +279,9 @@
   "about": {
     "hero": {
       "h1": "Hi, I'm Alfredo.",
-      "intro": "I'm a bilingual B2B SEO consultant based in Latin America, working with companies in the US market. Electrical Engineering background. SEO since 2019. $14.85M+ in client revenue attributed to organic search across 31+ projects.",
+      "intro": "I'm a bilingual B2B SEO consultant based in Latin America, working with companies in the US market. Electrical Engineering background. SEO since 2019. I've been generating over $14.85M in client revenue across 31+ projects.",
       "stat1Value": "$14.85M+",
-      "stat1Label": "Client revenue attributed",
+      "stat1Label": "Revenue Generated",
       "stat2Value": "31+",
       "stat2Label": "Projects delivered",
       "stat3Value": "6+",
@@ -375,7 +375,7 @@
     ],
     "socialProof": {
       "stat1": "31+ companies",
-      "stat2": "$14.85M+ generated",
+      "stat2": "$14.85M+ revenue generated",
       "stat3": "6+ years"
     },
     "calendlyTitle": "Pick a time that works for you"
@@ -401,7 +401,7 @@
     "authorBio": {
       "name": "Alfredo Abreu",
       "role": "B2B SEO Consultant",
-      "bio": "Bilingual SEO consultant specializing in Nearshoring, BPO, and SaaS companies in the US market. $14.85M+ in client revenue attributed to organic search."
+      "bio": "Bilingual SEO consultant specializing in Nearshoring, BPO, and SaaS companies in the US market. $14.85M+ in client revenue generated."
     },
     "relatedPosts": "Related Posts"
   },
@@ -540,7 +540,7 @@
       "eyebrow": "RESULTS",
       "h2": "Numbers from real clients.",
       "stat1Value": "$10.5M",
-      "stat1Label": "Enterprise deal closed from organic",
+      "stat1Label": "Single enterprise deal (AXS)",
       "stat2Value": "+168%",
       "stat2Label": "Organic traffic in 6 months",
       "stat3Value": "+208%",
@@ -606,7 +606,7 @@
       "metric2Value": "5",
       "metric2Label": "AI engines optimized",
       "metric3Value": "$14.85M+",
-      "metric3Label": "Client revenue generated"
+      "metric3Label": "Revenue generated"
     },
     "shift": {
       "eyebrow": "THE NEW REALITY",

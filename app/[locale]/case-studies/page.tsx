@@ -10,7 +10,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   return {
     title: 'Case Studies — Real B2B SEO Results',
-    description: '$14.85M+ in client revenue attributed to organic search. See how B2B companies in Nearshoring, BPO, NGO, and E-commerce grew with SEO.',
+    description: '$14.85M+ in client revenue generated. See how B2B companies in Nearshoring, BPO, NGO, and E-commerce grew with SEO.',
     alternates: {
       canonical: `https://alfredoabreu.com/${locale}/case-studies`,
       languages: {

@@ -34,13 +34,13 @@
     },
     "stats": {
       "stat1Value": "$14.85M+",
-      "stat1Label": "En revenue de clientes atribuido al SEO orgánico",
+      "stat1Label": "Revenue generado",
       "stat2Value": "31+",
-      "stat2Label": "Proyectos B2B entregados en EE.UU. y LatAm",
+      "stat2Label": "Proyectos completados",
       "stat3Value": "6+",
-      "stat3Label": "Años en SEO B2B",
+      "stat3Label": "Años de experiencia",
       "stat4Value": "168%",
-      "stat4Label": "Aumento promedio de tráfico orgánico"
+      "stat4Label": "Lift promedio tráfico orgánico"
     },
     "shift": {
       "eyebrow": "La Realidad del SEO en 2026",
@@ -86,7 +86,7 @@
       "h2Part2": "para una empresa de Nearshoring.",
       "desc": "AXS es una empresa de nearshoring que atiende el mercado estadounidense. Partiendo de un sitio descuidado con backlinks tóxicos, construimos un programa de SEO generador de revenue que contribuyó directamente al cierre de su deal enterprise más grande.",
       "metric1Value": "$10.5M",
-      "metric1Label": "Deal enterprise vía orgánico",
+      "metric1Label": "Deal enterprise cerrado vía orgánico",
       "metric2Value": "+168.79%",
       "metric2Label": "Clics orgánicos (6 meses)",
       "metric3Value": "+156.33%",
@@ -279,9 +279,9 @@
   "about": {
     "hero": {
       "h1": "Hola, soy Alfredo.",
-      "intro": "Soy consultor SEO B2B bilingüe con base en Latinoamérica, trabajando con empresas en el mercado estadounidense. Fondo en Ingeniería Eléctrica. SEO desde 2019. $14.85M+ en revenue de clientes atribuido al orgánico en 31+ proyectos.",
+      "intro": "Soy consultor SEO B2B bilingüe con base en Latinoamérica, trabajando con empresas en el mercado estadounidense. Fondo en Ingeniería Eléctrica. SEO desde 2019. He estado generando más de $14.85M en revenue para clientes en más de 31 proyectos.",
       "stat1Value": "$14.85M+",
-      "stat1Label": "Revenue de clientes atribuido",
+      "stat1Label": "Revenue Generado",
       "stat2Value": "31+",
       "stat2Label": "Proyectos entregados",
       "stat3Value": "6+",
@@ -375,7 +375,7 @@
     ],
     "socialProof": {
       "stat1": "31+ empresas",
-      "stat2": "$14.85M+ generados",
+      "stat2": "$14.85M+ de revenue generado",
       "stat3": "6+ años"
     },
     "calendlyTitle": "Elige el horario que mejor te funcione"
@@ -401,7 +401,7 @@
     "authorBio": {
       "name": "Alfredo Abreu",
       "role": "Consultor SEO B2B",
-      "bio": "Consultor SEO bilingüe especializado en empresas de Nearshoring, BPO y SaaS en el mercado estadounidense. $14.85M+ en revenue de clientes atribuido al orgánico."
+      "bio": "Consultor SEO bilingüe especializado en empresas de Nearshoring, BPO y SaaS en el mercado estadounidense. $14.85M+ en revenue generado para clientes."
     },
     "relatedPosts": "Posts Relacionados"
   },
@@ -540,7 +540,7 @@
       "eyebrow": "RESULTADOS",
       "h2": "Números de clientes reales.",
       "stat1Value": "$10.5M",
-      "stat1Label": "Deal enterprise cerrado vía orgánico",
+      "stat1Label": "Deal enterprise individual (AXS)",
       "stat2Value": "+168%",
       "stat2Label": "Tráfico orgánico en 6 meses",
       "stat3Value": "+208%",
@@ -606,7 +606,7 @@
       "metric2Value": "5",
       "metric2Label": "Motores de IA optimizados",
       "metric3Value": "$14.85M+",
-      "metric3Label": "Revenue generado para clientes"
+      "metric3Label": "Revenue generado"
     },
     "shift": {
       "eyebrow": "LA NUEVA REALIDAD",
