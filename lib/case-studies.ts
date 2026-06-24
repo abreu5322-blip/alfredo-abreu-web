@@ -255,10 +255,12 @@ export const caseStudies: CaseStudy[] = [
       { value: '5.3', label: 'Average position', labelEs: 'Posición promedio' },
     ],
     images: [
-      { src: 'TODO: /images/case-studies/wxb/shopify-sales.png', alt: 'Shopify dashboard showing 55% revenue increase', width: 1600, height: 900, label: 'Shopify — Revenue +55%' },
-      { src: 'TODO: /images/case-studies/wxb/gsc-performance.png', alt: 'GSC showing 70% impressions growth', width: 1600, height: 900, label: 'GSC — Impressions +70%' },
+      { src: '/images/case-studies/wxb/shopify-sales.png', alt: 'Shopify dashboard showing 55% revenue increase — $33.8K vs $21.7K from Google organic', width: 1600, height: 900, label: 'Shopify — Revenue +55%' },
+      { src: '/images/case-studies/wxb/gsc-performance.png', alt: 'Google Search Console metrics — 1.69K clicks, 261K impressions, 5.3 average position', width: 1600, height: 900, label: 'GSC — Performance Overview' },
+      { src: '/images/case-studies/wxb/gsc-clicks.png', alt: 'Google Search Console performance chart showing 4,502 total web search clicks growth trend', width: 1600, height: 900, label: 'GSC — Clicks Growth Trend' },
+      { src: '/images/case-studies/wxb/ahrefs-performance.png', alt: 'Ahrefs organic keywords chart showing growth from ~25 to ~95 top 1-3 positions over 2 years', width: 1600, height: 900, label: 'Ahrefs — Organic Keywords Growth' },
     ],
-    coverImage: 'TODO: /images/case-studies/wxb/cover.jpg',
+    coverImage: '/images/case-studies/wxb/cover.png',
   },
 ]
 
