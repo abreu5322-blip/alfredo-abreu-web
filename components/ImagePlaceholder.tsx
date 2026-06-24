@@ -47,8 +47,7 @@ export default function ImagePlaceholder({
 
   return (
     <div
-      className={`relative overflow-hidden rounded-2xl ${className}`}
-      style={{ aspectRatio: `${width}/${height}` }}
+      className={`relative overflow-hidden rounded-2xl bg-slate-50 ${className}`}
     >
       <Image
         src={src}
@@ -57,7 +56,7 @@ export default function ImagePlaceholder({
         height={height}
         priority={priority}
         loading={priority ? 'eager' : 'lazy'}
-        className="object-cover w-full h-full"
+        className="object-contain w-full h-auto"
       />
     </div>
   )

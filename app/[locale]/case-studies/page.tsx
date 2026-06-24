@@ -61,8 +61,8 @@ export default async function CaseStudiesPage() {
                     i === 0 ? 'lg:col-span-2' : ''
                   }`}
                 >
-                  {/* Cover image */}
-                  <div className={i === 0 ? 'aspect-[16/6]' : 'aspect-[16/9]'}>
+                {/* Cover image */}
+                  <div className="overflow-hidden">
                     {/* TODO: image — case-studies/{cs.slug}/cover.jpg — Cover image for {cs.client} */}
                     <ImagePlaceholder
                       src={cs.coverImage}
@@ -70,7 +70,7 @@ export default async function CaseStudiesPage() {
                       width={1200}
                       height={i === 0 ? 450 : 675}
                       label={`${cs.client} — Case Study Cover`}
-                      className="w-full h-full rounded-t-2xl rounded-b-none"
+                      className="w-full rounded-t-2xl rounded-b-none"
                     />
                   </div>
 
@@ -80,9 +80,11 @@ export default async function CaseStudiesPage() {
                         {tag}
                       </span>
                     </div>
-                    <h2 className="text-xl lg:text-2xl font-bold text-midnight-navy mb-2 group-hover:text-royal-blue transition-colors">
-                      {title}
-                    </h2>
+                    <Link href={`/case-studies/${cs.slug}`} className="no-underline">
+                      <h2 className="text-xl lg:text-2xl font-bold text-midnight-navy mb-2 group-hover:text-royal-blue transition-colors">
+                        {title}
+                      </h2>
+                    </Link>
                     <p className="text-sm text-midnight-navy/60 leading-relaxed mb-6">{subtitle}</p>
 
                     <div className="flex flex-wrap gap-4 mb-6">
