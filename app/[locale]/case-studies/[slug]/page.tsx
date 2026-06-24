@@ -3,7 +3,7 @@ import { getLocale, getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { Link } from '@/i18n/navigation'
 import FloatingTriangles from '@/components/FloatingTriangles'
-import ImagePlaceholder from '@/components/ImagePlaceholder'
+import CaseStudyGallery from '@/components/CaseStudyGallery'
 import { caseStudies, getCaseStudyBySlug } from '@/lib/case-studies'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
 
@@ -183,21 +183,7 @@ export default async function CaseStudyPage({
           {/* Visual Proof */}
           <div>
             <h2 className="text-2xl font-bold text-midnight-navy mb-6">{t('caseStudy.visualProof')}</h2>
-            <div className="grid sm:grid-cols-2 gap-4">
-              {cs.images.map((img) => (
-                <div key={img.label}>
-                  {/* TODO: image — {img.src.replace('TODO: ', '')} — {img.width}×{img.height} — {img.label} */}
-                  <ImagePlaceholder
-                    src={img.src}
-                    alt={img.alt}
-                    width={img.width}
-                    height={img.height}
-                    label={img.label}
-                  />
-                  <p className="text-xs text-midnight-navy/40 text-center mt-2">{img.alt}</p>
-                </div>
-              ))}
-            </div>
+            <CaseStudyGallery images={cs.images} />
           </div>
         </div>
       </section>
