@@ -190,7 +190,7 @@ export default function ServicesPage() {
               </a>
             </div>
 
-            {/* Growth — gradient border */}
+            {/* Growth - gradient border */}
             <div className="gradient-border">
               <div className="p-8">
                 <div className="flex items-center justify-between mb-1">

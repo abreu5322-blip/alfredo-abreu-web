@@ -1,4 +1,4 @@
-# Image Assets — Alfredo Abreu Website
+# Image Assets | Alfredo Abreu Website
 
 All images should be placed in their respective directories. Use high-quality JPEG/PNG files.
 Next.js will automatically serve WebP/AVIF versions via `next/image`.

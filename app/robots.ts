@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: '/',
       },
-      // Explicitly allow AI search bots — important for AI Search Optimization
+      // Explicitly allow AI search bots - important for AI Search Optimization
       {
         userAgent: 'GPTBot',
         allow: '/',

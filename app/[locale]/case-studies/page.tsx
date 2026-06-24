@@ -9,7 +9,7 @@ import { ArrowRight } from 'lucide-react'
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   return {
-    title: 'Case Studies — Real B2B SEO Results',
+    title: 'Case Studies | Real B2B SEO Results',
     description: '$14.85M+ in client revenue generated. See how B2B companies in Nearshoring, BPO, NGO, and E-commerce grew with SEO.',
     alternates: {
       canonical: `https://alfredoabreu.com/${locale}/case-studies`,
@@ -63,13 +63,13 @@ export default async function CaseStudiesPage() {
                 >
                 {/* Cover image */}
                   <div className="overflow-hidden">
-                    {/* TODO: image — case-studies/{cs.slug}/cover.jpg — Cover image for {cs.client} */}
+                    {/* TODO: image - case-studies/{cs.slug}/cover.jpg - Cover image for {cs.client} */}
                     <ImagePlaceholder
                       src={cs.coverImage}
                       alt={`${cs.client} case study`}
                       width={1200}
                       height={i === 0 ? 450 : 675}
-                      label={`${cs.client} — Case Study Cover`}
+                      label={`${cs.client} - Case Study Cover`}
                       className="w-full rounded-t-2xl rounded-b-none"
                     />
                   </div>

@@ -7,7 +7,7 @@ import { CheckCircle } from 'lucide-react'
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   return {
-    title: 'Free 30-Minute SEO Audit — Alfredo Abreu',
+    title: 'Free 30-Minute SEO Audit | Alfredo Abreu',
     description: 'Book a free 30-minute SEO audit. No pitch, no commitment. Get a live review of your site, your top keyword opportunities, and clear next steps.',
     alternates: {
       canonical: `https://alfredoabreu.com/${locale}/audit`,

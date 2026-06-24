@@ -33,7 +33,7 @@ export default function ContactPage() {
 
   async function onSubmit(data: FormData) {
     try {
-      // TODO: Connect to Formspree or Resend — replace URL below
+      // TODO: Connect to Formspree or Resend - replace URL below
       // await fetch('https://formspree.io/f/YOUR_FORM_ID', {
       //   method: 'POST',
       //   headers: { 'Content-Type': 'application/json' },
@@ -209,7 +209,7 @@ export default function ContactPage() {
                     {t('contact.form.budgetLabel')}
                   </label>
                   <select {...register('budget')} className={inputClass}>
-                    <option value="">— Select —</option>
+                    <option value="">Select</option>
                     <option value="audit">{t('contact.form.budgetOptions.audit')}</option>
                     <option value="monthly">{t('contact.form.budgetOptions.monthly')}</option>
                     <option value="custom">{t('contact.form.budgetOptions.custom')}</option>

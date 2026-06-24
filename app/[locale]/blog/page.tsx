@@ -9,7 +9,7 @@ import { ArrowRight } from 'lucide-react'
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   return {
-    title: 'Blog — B2B SEO Insights & Strategy',
+    title: 'Blog | B2B SEO Insights & Strategy',
     description: 'Practical SEO insights for B2B companies in Nearshoring, BPO, and SaaS. Written by Alfredo Abreu, bilingual B2B SEO consultant.',
     alternates: {
       canonical: `https://alfredoabreu.com/${locale}/blog`,
@@ -61,7 +61,7 @@ export default async function BlogPage() {
                   className="group bg-white rounded-2xl border border-soft-lilac/40 overflow-hidden hover:border-lavender-blue/40 hover:shadow-lg transition-all"
                 >
                   <div className="aspect-[16/9]">
-                    {/* TODO: image — blog/{post.slug}/cover.jpg — 1200×630 — Cover for blog post: {post.title} */}
+                    {/* TODO: image - blog/{post.slug}/cover.jpg - 1200×630 - Cover for blog post: {post.title} */}
                     <ImagePlaceholder
                       src={post.coverImage}
                       alt={post.title}

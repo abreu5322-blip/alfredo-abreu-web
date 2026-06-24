@@ -65,7 +65,7 @@ export default async function SmallBusinessSeoPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(faqSchema)}}/>
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumbSchema)}}/>
 
-      {/* S1 — HERO */}
+      {/* S1 - HERO */}
       <section className="relative bg-white pt-32 pb-20 overflow-hidden">
         <div aria-hidden className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full opacity-[0.06] pointer-events-none" style={{background:'radial-gradient(circle,#8D7EFD 0%,#3223D6 50%,transparent 70%)'}}/>
         <FloatingTriangles count={5} theme="light" intensity="subtle"/>
@@ -97,7 +97,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S2 — AGENCY PROBLEM */}
+      {/* S2 - AGENCY PROBLEM */}
       <section className="relative bg-white py-20 overflow-hidden">
         <div aria-hidden className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full opacity-[0.05] pointer-events-none" style={{background:'radial-gradient(circle,#FFB2FF 0%,#8D7EFD 50%,transparent 70%)'}}/>
         <FloatingTriangles count={3} theme="light" intensity="subtle"/>
@@ -128,7 +128,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S3 — RIGHT APPROACH */}
+      {/* S3 - RIGHT APPROACH */}
       <section className="relative bg-white py-20 overflow-hidden">
         <FloatingTriangles count={3} theme="light" intensity="subtle"/>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -153,7 +153,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S4 — SERVICES INCLUDED */}
+      {/* S4 - SERVICES INCLUDED */}
       <section className="relative bg-white py-20 overflow-hidden">
         <div aria-hidden className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] rounded-full opacity-[0.04] pointer-events-none" style={{background:'radial-gradient(circle,#8D7EFD 0%,#3223D6 60%,transparent 80%)'}}/>
         <FloatingTriangles count={4} theme="light" intensity="subtle"/>
@@ -176,7 +176,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S5 — PRICING */}
+      {/* S5 - PRICING */}
       <section id="pricing" className="relative bg-white py-20 overflow-hidden">
         <FloatingTriangles count={4} theme="light" intensity="subtle"/>
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -196,7 +196,7 @@ export default async function SmallBusinessSeoPage() {
               <p className="text-xs text-midnight-navy/40 mb-4">{t('pricing.plan1Ideal')}</p>
               <a href="https://calendly.com/abreu5322/30min" target="_blank" rel="noopener noreferrer" className="btn-ghost text-sm px-6 py-3 w-full text-center">{t('pricing.plan1Cta')}</a>
             </div>
-            {/* Plan 2 — featured */}
+            {/* Plan 2 - featured */}
             <div className="gradient-border flex flex-col"><div className="p-8 flex flex-col flex-1">
               <div className="flex items-center justify-between mb-2">
                 <h3 className="text-lg font-bold text-midnight-navy">{t('pricing.plan2Name')}</h3>
@@ -222,7 +222,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S6 — REAL RESULTS */}
+      {/* S6 - REAL RESULTS */}
       <section className="relative bg-white py-20 overflow-hidden">
         <div aria-hidden className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full opacity-[0.05] pointer-events-none" style={{background:'radial-gradient(circle,#FFB2FF 0%,#8D7EFD 60%,transparent 80%)'}}/>
         <FloatingTriangles count={3} theme="light" intensity="subtle"/>
@@ -247,7 +247,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S7 — HONEST COMPARISON (dark) */}
+      {/* S7 - HONEST COMPARISON (dark) */}
       <section className="relative bg-midnight-navy py-20 overflow-hidden">
         <FloatingTriangles count={5} theme="dark" intensity="medium"/>
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -278,7 +278,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S8 — WHO I HELP */}
+      {/* S8 - WHO I HELP */}
       <section className="relative bg-white py-20 overflow-hidden">
         <FloatingTriangles count={3} theme="light" intensity="subtle"/>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -300,7 +300,7 @@ export default async function SmallBusinessSeoPage() {
 
       <div className="gradient-divider"/>
 
-      {/* S9 — FAQ */}
+      {/* S9 - FAQ */}
       <section className="relative bg-white py-20 overflow-hidden">
         <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -311,7 +311,7 @@ export default async function SmallBusinessSeoPage() {
         </div>
       </section>
 
-      {/* S10 — FINAL CTA */}
+      {/* S10 - FINAL CTA */}
       <section className="relative bg-midnight-navy py-24 overflow-hidden">
         <FloatingTriangles count={6} theme="dark" intensity="strong"/>
         <div className="relative z-10 max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -132,7 +132,7 @@ export default async function BlogPostPage({
 
       {/* Cover image */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-        {/* TODO: image — blog/{fm.slug}/cover.jpg — 1200×630 — Cover image for blog post: {fm.title} */}
+        {/* TODO: image - blog/{fm.slug}/cover.jpg - 1200×630 - Cover image for blog post: {fm.title} */}
         <ImagePlaceholder
           src={fm.coverImage}
           alt={fm.title}
@@ -217,7 +217,7 @@ export default async function BlogPostPage({
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-start gap-6">
             <div className="w-16 h-16 rounded-full shrink-0 overflow-hidden">
-              {/* TODO: image — profile/alfredo-square.jpg — 400×400 — Author avatar for blog posts */}
+              {/* TODO: image - profile/alfredo-square.jpg - 400×400 - Author avatar for blog posts */}
               <ImagePlaceholder
                 src={undefined}
                 alt="Alfredo Abreu"

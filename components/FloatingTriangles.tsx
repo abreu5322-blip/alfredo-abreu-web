@@ -105,7 +105,7 @@ export default function FloatingTriangles({
 
   const gradId = theme === 'dark' ? 'gradDark' : 'grad'
 
-  // Only render on the client — avoids SSR/hydration mismatch from Framer
+  // Only render on the client - avoids SSR/hydration mismatch from Framer
   // Motion's motion.div and the float arithmetic in seededRandom producing
   // different serialised HTML between server and client environments.
   if (!mounted) return null

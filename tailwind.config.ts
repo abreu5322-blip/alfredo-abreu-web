@@ -1,4 +1,4 @@
-// Tailwind v4 — configuration is handled in globals.css via @theme
+// Tailwind v4: configuration is handled in globals.css via @theme
 // This file kept for any tooling compatibility
 import type { Config } from 'tailwindcss'
 

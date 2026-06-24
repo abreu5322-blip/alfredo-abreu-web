@@ -24,7 +24,12 @@
       "ctaPrimary": "Book Free 30-min Audit",
       "ctaGhost": "See Case Studies →",
       "trustBar": "Trusted by B2B companies in:",
-      "trustItems": ["Nearshoring", "BPO", "SaaS", "Fintech"],
+      "trustItems": [
+        "Nearshoring",
+        "BPO",
+        "SaaS",
+        "Fintech"
+      ],
       "metric1Value": "$14.85M+",
       "metric1Label": "Organic Revenue generated until Q1-2026",
       "metric2Value": "+168%",
@@ -67,7 +72,7 @@
       "h2Highlight": "revenue",
       "card1Title": "Strategy Audit",
       "card1Price": "From $500",
-      "card1Desc": "A complete diagnosis of your SEO — technical, content, and off-page — with a prioritized roadmap you can execute immediately.",
+      "card1Desc": "A complete diagnosis of your SEO, including technical, content, and off-page analysis, with a prioritized roadmap you can execute immediately.",
       "card1Tag": "One-time",
       "card2Title": "Monthly SEO",
       "card2Price": "From $1,000/mo",
@@ -104,7 +109,7 @@
       "phase1Desc": "Comprehensive audit: technical health, keyword gaps, competitor landscape, and content opportunities.",
       "phase2Num": "02",
       "phase2Title": "Blueprint",
-      "phase2Desc": "Revenue-first roadmap: prioritized by impact, effort, and business objectives — not vanity metrics.",
+      "phase2Desc": "Revenue-first roadmap: prioritized by impact, effort, and business objectives, not vanity metrics.",
       "phase3Num": "03",
       "phase3Title": "Build",
       "phase3Desc": "Execute with precision: technical fixes, authority link building, and content that converts.",
@@ -206,13 +211,13 @@
       "q1": "What's included in the monthly retainer?",
       "a1": "Every plan includes technical SEO monitoring, link building, content optimization, and monthly reporting with revenue attribution. The difference between plans is the volume and intensity of link building and content production.",
       "q2": "Which plan should I choose?",
-      "a2": "Start with the Strategy Audit ($500) — it gives you a clear picture of your current situation and which plan makes the most sense for your goals. If you're just getting started with SEO, Base is usually right. If you're already getting traffic and want to scale, Growth or Hyper Growth.",
+      "a2": "Start with the Strategy Audit ($500), which gives you a clear picture of your current situation and which plan makes the most sense for your goals. If you're just getting started with SEO, Base is usually right. If you're already getting traffic and want to scale, Growth or Hyper Growth.",
       "q3": "Is there a minimum commitment?",
-      "a3": "3 months minimum for monthly retainers. SEO is a compounding activity — the first month is all foundation. Month 2-3 is where you start seeing traction. Clients who stick with it 6+ months see the best results.",
+      "a3": "3 months minimum for monthly retainers. SEO is a compounding activity: the first month is all foundation. Month 2-3 is where you start seeing traction. Clients who stick with it 6+ months see the best results.",
       "q4": "When will I see results?",
       "a4": "Technical fixes can have an impact in 2-4 weeks. Keyword rankings typically improve at 60-90 days. Revenue attribution usually becomes clear at 3-6 months. I'll set realistic expectations in your first audit.",
       "q5": "Do you offer refunds?",
-      "a5": "The Strategy Audit is non-refundable once delivered — you're paying for the analysis and my time. Monthly retainers can be cancelled at the end of any month after the 3-month minimum."
+      "a5": "The Strategy Audit is non-refundable once delivered, as you're paying for the analysis and my time. Monthly retainers can be cancelled at the end of any month after the 3-month minimum."
     },
     "finalCta": {
       "h2Part1": "Not sure which plan is right?",
@@ -225,7 +230,7 @@
       "h2Part1": "Need a more focused",
       "h2Highlight": "solution?",
       "card1Title": "SEO Services for Startups",
-      "card1Desc": "A dedicated SEO system built for early-stage and growth-stage startups. Speed, focus, and measurable ROI — no agency bloat.",
+      "card1Desc": "A dedicated SEO system built for early-stage and growth-stage startups. Speed, focus, and measurable ROI, with no agency bloat.",
       "card1Cta": "Learn More →",
       "card2Title": "Generative Engine Optimization",
       "card2Desc": "Get your brand cited by ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews. GEO services engineered for AI search visibility.",
@@ -306,7 +311,7 @@
     "recognition": {
       "eyebrow": "Recognition",
       "title": "Speaker at Condor Marketing & Staffing",
-      "desc": "Invited speaker on \"Mastering SEO for B2B Companies\" — covering AI search optimization, revenue attribution, and the shifting landscape of organic search in 2025-2026.",
+      "desc": "Invited speaker on \"Mastering SEO for B2B Companies,\" covering AI search optimization, revenue attribution, and the shifting landscape of organic search in 2025-2026.",
       "org": "Condor Marketing & Staffing"
     },
     "finalCta": {
@@ -371,7 +376,7 @@
       "A live review of your site's technical SEO health",
       "Your top 3 keyword opportunities (revenue-first, not traffic-first)",
       "An honest assessment of your current backlink profile",
-      "Clear next steps — whether you hire me or not"
+      "Clear next steps, whether you hire me or not"
     ],
     "socialProof": {
       "stat1": "31+ companies",
@@ -406,14 +411,14 @@
     "relatedPosts": "Related Posts"
   },
   "footer": {
-    "tagline": "Bilingual B2B SEO Consultant — Nearshoring · BPO · SaaS",
+    "tagline": "Bilingual B2B SEO Consultant | Nearshoring · BPO · SaaS",
     "nav": "Navigation",
     "legal": "© 2026 Alfredo Abreu. All rights reserved.",
     "madeWith": "Built with Next.js & Tailwind CSS"
   },
   "startupSeo": {
     "meta": {
-      "title": "SEO Services for Startups | Alfredo Abreu — B2B SEO Consultant",
+      "title": "SEO Services for Startups | Alfredo Abreu | B2B SEO Consultant",
       "description": "Data-driven SEO for startups that turns organic traffic into revenue. Technical SEO, content strategy, and AI search optimization engineered for early-stage and growth-stage startups."
     },
     "breadcrumb": {
@@ -425,8 +430,8 @@
       "eyebrow": "SEO SERVICES FOR STARTUPS",
       "h1Part1": "SEO for startups that drives",
       "h1Highlight": "real revenue",
-      "h1Part2": "— not vanity metrics.",
-      "body": "Most startups waste months on SEO tactics that don't move the needle. I build organic growth systems engineered for speed, efficiency, and measurable ROI — whether you're pre-seed or Series B.",
+      "h1Part2": ", not vanity metrics.",
+      "body": "Most startups waste months on SEO tactics that don't move the needle. I build organic growth systems engineered for speed, efficiency, and measurable ROI, whether you're pre-seed or Series B.",
       "ctaPrimary": "Book Free Startup SEO Audit",
       "ctaGhost": "See Case Studies →",
       "trustBar": "Trusted by startups in: SaaS · Fintech · BPO · Nearshoring · E-commerce"
@@ -448,8 +453,8 @@
         "Revenue-first keyword architecture mapped to your buyer journey",
         "Strategic content that ranks AND converts (not content for content's sake)",
         "Weekly reporting tied to pipeline, leads, and revenue",
-        "Senior execution — I do the work, not a junior",
-        "Month-to-month engagement — results earn the relationship"
+        "Senior execution: I do the work, not a junior",
+        "Month-to-month engagement: results earn the relationship"
       ]
     },
     "approach": {
@@ -460,9 +465,9 @@
       "phase1Title": "Week 1: Diagnose",
       "phase1Desc": "Technical audit, competitor gaps, and keyword opportunities mapped to your ICP and buyer journey.",
       "phase2Title": "Week 2: Blueprint",
-      "phase2Desc": "Prioritized 90-day roadmap. High-impact, low-effort wins first — because startups can't wait 6 months.",
+      "phase2Desc": "Prioritized 90-day roadmap. High-impact, low-effort wins first, because startups can't wait 6 months.",
       "phase3Title": "Week 3+: Build",
-      "phase3Desc": "Technical fixes, content optimization, strategic link building, and AI search positioning — all executed by me.",
+      "phase3Desc": "Technical fixes, content optimization, strategic link building, and AI search positioning, all executed by me.",
       "phase4Title": "Continuous: Measure & Scale",
       "phase4Desc": "Weekly reports tied to your north star metric. What works gets scaled. What doesn't gets cut. No vanity metrics."
     },
@@ -471,17 +476,17 @@
       "h2Part1": "Full-stack SEO for startups.",
       "h2Part2": "Nothing outsourced.",
       "card1Title": "Technical SEO",
-      "card1Desc": "Site speed, crawlability, indexation, structured data, and Core Web Vitals — the foundation everything else builds on.",
+      "card1Desc": "Site speed, crawlability, indexation, structured data, and Core Web Vitals, the foundation everything else builds on.",
       "card2Title": "Keyword Architecture",
       "card2Desc": "Revenue-mapped keyword strategy aligned to your ICP, buyer journey, and competitive landscape.",
       "card3Title": "Content Strategy",
-      "card3Desc": "Blog posts, landing pages, and pillar content that ranks and converts — written for humans, optimized for Google.",
+      "card3Desc": "Blog posts, landing pages, and pillar content that ranks and converts, written for humans and optimized for Google.",
       "card4Title": "Link Building",
-      "card4Desc": "Strategic authority building through quality backlinks, niche submissions, and PR — no spam, no PBNs.",
+      "card4Desc": "Strategic authority building through quality backlinks, niche submissions, and PR, with no spam or PBNs.",
       "card5Title": "AI Search Optimization",
       "card5Desc": "Get cited in ChatGPT, Perplexity, Gemini, and Google AI Overviews. LLMs.txt, schema, and authority content.",
       "card6Title": "Revenue Reporting",
-      "card6Desc": "Weekly activity reports + monthly deep dives tied to pipeline, leads, and revenue — not just traffic."
+      "card6Desc": "Weekly activity reports + monthly deep dives tied to pipeline, leads, and revenue, not just traffic."
     },
     "pricing": {
       "eyebrow": "STARTUP SEO PLANS",
@@ -534,7 +539,7 @@
       "card2Title": "Bilingual advantage",
       "card2Desc": "I understand both the US and LatAm markets natively. If your startup serves both, I'm your unfair advantage.",
       "card3Title": "Engineering mindset",
-      "card3Desc": "Electrical engineering background. I treat SEO as a system — inputs, outputs, feedback loops. Data over opinions."
+      "card3Desc": "Electrical engineering background. I treat SEO as a system: inputs, outputs, and feedback loops. Data over opinions."
     },
     "results": {
       "eyebrow": "RESULTS",
@@ -558,7 +563,7 @@
       "q2": "Is there a minimum commitment?",
       "a2": "No. Month-to-month engagement. I earn the relationship through results, not contracts. Either party can cancel at any time.",
       "q3": "What if I already have an in-house marketing person?",
-      "a3": "Great — I work alongside your team, not against them. I handle the technical SEO execution and strategy while your marketer focuses on brand, social, and other channels. I also train them so your internal capabilities grow.",
+      "a3": "Great, I work alongside your team, not against them. I handle the technical SEO execution and strategy while your marketer focuses on brand, social, and other channels. I also train them so your internal capabilities grow.",
       "q4": "Do you work with pre-revenue startups?",
       "a4": "Yes, but I'm transparent: if you don't have product-market fit yet, SEO might not be your highest-leverage channel right now. I'll tell you honestly in the free audit whether SEO is the right investment at your stage.",
       "q5": "What tools do you use?",
@@ -586,7 +591,7 @@
   },
   "geoServices": {
     "meta": {
-      "title": "Generative Engine Optimization Services | Alfredo Abreu — B2B SEO Consultant",
+      "title": "Generative Engine Optimization Services | Alfredo Abreu | B2B SEO Consultant",
       "description": "Get your brand cited by ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews. Generative Engine Optimization (GEO) services engineered for B2B visibility in AI search engines."
     },
     "breadcrumb": {
@@ -598,7 +603,7 @@
       "eyebrow": "GENERATIVE ENGINE OPTIMIZATION SERVICES",
       "h1Part1": "Get your brand cited by",
       "h1Highlight": "AI search engines.",
-      "body": "Google is no longer the only search engine that matters. ChatGPT, Perplexity, Gemini, and Copilot are answering your customers' questions right now — and if your brand isn't in those answers, your competitors are. I engineer your content to be cited, referenced, and recommended by AI.",
+      "body": "Google is no longer the only search engine that matters. ChatGPT, Perplexity, Gemini, and Copilot are answering your customers' questions right now, and if your brand isn't in those answers, your competitors are. I engineer your content to be cited, referenced, and recommended by AI.",
       "ctaPrimary": "Book Free GEO Audit",
       "ctaGhost": "See Case Studies →",
       "metric1Value": "770+",
@@ -612,7 +617,7 @@
       "eyebrow": "THE NEW REALITY",
       "h2Part1": "Your customers are already using AI to find solutions.",
       "h2Highlight": "Is your brand in those answers?",
-      "body": "Generative Engine Optimization (GEO) is the discipline of engineering your brand's content, authority, and structured data so that large language models cite you when answering user queries. It's not replacing traditional SEO — it's the next layer on top of it.",
+      "body": "Generative Engine Optimization (GEO) is the discipline of engineering your brand's content, authority, and structured data so that large language models cite you when answering user queries. It is not replacing traditional SEO; it is the next layer on top of it.",
       "engine1Name": "Google AI Overviews",
       "engine1Desc": "The new #1 SERP position",
       "engine2Name": "ChatGPT",
@@ -653,7 +658,7 @@
       "phase1Title": "Custom Structured Data Schemas",
       "phase1Desc": "I engineer structured data that makes your content machine-readable and citation-ready for LLMs. Organization schema, FAQ schema, HowTo schema, and custom schemas tailored to your industry.",
       "phase2Title": "Optimized Robots.txt for AI Crawlers",
-      "phase2Desc": "I configure your robots.txt to allow and prioritize the right AI crawlers — GPTBot, PerplexityBot, Google-Extended, ClaudeBot — so they can access and cite your content.",
+      "phase2Desc": "I configure your robots.txt to allow and prioritize the right AI crawlers (including GPTBot, PerplexityBot, Google-Extended, and ClaudeBot) so they can access and cite your content.",
       "phase3Title": "LLMs.txt Implementation",
       "phase3Desc": "I create and deploy a dedicated LLMs.txt file that tells AI engines exactly what your site is, what it offers, what makes it authoritative, and how to cite it. Think of it as a cover letter for AI.",
       "phase4Title": "AI Citation Tracking & Iteration",
@@ -663,21 +668,21 @@
       "eyebrow": "WHAT YOU GET",
       "h2": "Everything you need to dominate AI search.",
       "card1Title": "AI Search Audit",
-      "card1Desc": "Complete analysis of your current AI search visibility — where you're cited, where you're missing, and where your competitors appear instead.",
+      "card1Desc": "Complete analysis of your current AI search visibility: where you're cited, where you're missing, and where your competitors appear instead.",
       "card2Title": "Structured Data Engineering",
       "card2Desc": "Custom JSON-LD schemas designed to make your content the most machine-readable option in your industry.",
       "card3Title": "LLMs.txt & AI Configuration",
       "card3Desc": "Dedicated AI-facing files (LLMs.txt, optimized robots.txt) that guide AI engines to your most authoritative content.",
       "card4Title": "Authority Content Strategy",
-      "card4Desc": "Content engineered to be cited — not just ranked. Definitive guides, data-backed research, and expert-positioned articles.",
+      "card4Desc": "Content engineered to be cited, not just ranked. Definitive guides, data-backed research, and expert-positioned articles.",
       "card5Title": "Citation Monitoring",
       "card5Desc": "Monthly tracking of your brand's citations across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews via Ahrefs.",
       "card6Title": "Traditional SEO Foundation",
-      "card6Desc": "GEO doesn't replace SEO — it builds on top of it. Technical SEO, link building, and content optimization are included to ensure both Google and AI engines trust your site."
+      "card6Desc": "GEO doesn't replace SEO; it builds on top of it. Technical SEO, link building, and content optimization are included to ensure both Google and AI engines trust your site."
     },
     "results": {
       "eyebrow": "PROVEN RESULTS",
-      "h2Part1": "770+ AI citations across 5 engines —",
+      "h2Part1": "770+ AI citations across 5 engines",
       "h2Highlight": "and growing.",
       "engine1Name": "Google AI Overviews",
       "engine1Citations": "114",
@@ -745,9 +750,9 @@
       "eyebrow": "FAQ",
       "h2": "Questions about Generative Engine Optimization.",
       "q1": "What is Generative Engine Optimization (GEO)?",
-      "a1": "GEO is the practice of optimizing your brand's content and technical setup so that AI search engines — ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews — cite and recommend you when answering user queries. It's the AI-era evolution of SEO.",
+      "a1": "GEO is the practice of optimizing your brand's content and technical setup so that AI search engines (including ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews) cite and recommend you when answering user queries. It is the AI-era evolution of SEO.",
       "q2": "Do I still need traditional SEO if I do GEO?",
-      "a2": "Yes. GEO builds on top of traditional SEO — it doesn't replace it. AI engines heavily rely on Google rankings, domain authority, and backlink profiles to determine which sources to cite. A strong SEO foundation makes GEO significantly more effective.",
+      "a2": "Yes. GEO builds on top of traditional SEO; it doesn't replace it. AI engines heavily rely on Google rankings, domain authority, and backlink profiles to determine which sources to cite. A strong SEO foundation makes GEO significantly more effective.",
       "q3": "How do you track AI citations?",
       "a3": "I use Ahrefs' AI citation tracking to monitor your brand's mentions across ChatGPT, Perplexity, Gemini, Copilot, and Google AI Overviews. You get a monthly report showing citation count, which pages are being cited, and how your visibility compares to competitors.",
       "q4": "What is LLMs.txt?",
@@ -755,7 +760,7 @@
       "q5": "How long until I see AI citations?",
       "a5": "It depends on your existing domain authority and content quality. Sites with strong SEO foundations can start appearing in AI answers within 4-8 weeks of GEO implementation. New or low-authority sites may take 3-6 months as we build the traditional SEO foundation simultaneously.",
       "q6": "Can you guarantee my brand will be cited by ChatGPT?",
-      "a6": "No — and anyone who guarantees AI citations is not being honest. AI engines are non-deterministic and change constantly. What I can guarantee is that your site will be technically optimized, content-engineered, and authority-positioned to maximize your probability of being cited. My track record of 770+ citations across 5 engines speaks for itself."
+      "a6": "No, and anyone who guarantees AI citations is not being honest. AI engines are non-deterministic and change constantly. What I can guarantee is that your site will be technically optimized, content-engineered, and authority-positioned to maximize your probability of being cited. My track record of 770+ citations across 5 engines speaks for itself."
     },
     "finalCta": {
       "h2": "Ready to be cited by AI?",
@@ -765,8 +770,8 @@
   },
   "smallBusinessSeo": {
     "meta": {
-      "title": "SEO Services for Small Businesses | Alfredo Abreu — Senior SEO Consultant",
-      "description": "Affordable SEO services for small businesses. Transparent pricing, no long-term contracts, senior execution — not juniors. National and international service. Book a free 30-min audit."
+      "title": "SEO Services for Small Businesses | Alfredo Abreu | Senior SEO Consultant",
+      "description": "Affordable SEO services for small businesses. Transparent pricing, no long-term contracts, senior execution, not juniors. National and international service. Book a free 30-min audit."
     },
     "breadcrumb": {
       "home": "Home",
@@ -801,14 +806,14 @@
         "6-12 month contracts, no exit clause",
         "Hidden fees for 'additional scope'",
         "Your account is 1 of 200+ they manage",
-        "No pricing on their website — 'request a quote'",
+        "No pricing on their website (only 'request a quote')",
         "Templated strategies, not custom to your business"
       ],
       "rightTitle": "What I give every small business client",
       "rightItems": [
-        "Senior strategy AND senior execution — it's just me",
+        "Senior strategy AND senior execution: it's just me",
         "Weekly reports tied to revenue, leads, and pipeline",
-        "Month-to-month — cancel anytime, no penalties",
+        "Month-to-month: cancel anytime, with no penalties",
         "Transparent pricing published on this page",
         "Your business gets my full attention, not a queue",
         "Free 30-min audit before you spend a dollar",
@@ -819,13 +824,13 @@
       "eyebrow": "THE RIGHT APPROACH",
       "h2Part1": "SEO for small businesses isn't about volume. It's about",
       "h2Highlight": "the right traffic.",
-      "body": "A small business with 500 monthly visitors who convert is worth more than an enterprise site with 50,000 visitors who don't. My SEO strategy for small businesses focuses on attracting the exact people most likely to become your customers — and turning that traffic into measurable revenue.",
+      "body": "A small business with 500 monthly visitors who convert is worth more than an enterprise site with 50,000 visitors who don't. My SEO strategy for small businesses focuses on attracting the exact people most likely to become your customers, turning that traffic into measurable revenue.",
       "card1Title": "Revenue-first keyword strategy",
-      "card1Desc": "I map keywords to your actual buyer journey — not just search volume. Every keyword targets someone close to making a decision.",
+      "card1Desc": "I map keywords to your actual buyer journey, not just search volume. Every keyword targets someone close to making a decision.",
       "card2Title": "Local + national reach",
-      "card2Desc": "Whether you serve one city or the entire country, I build an SEO strategy that matches your geographic ambitions — not a template that assumes you're all the same.",
+      "card2Desc": "Whether you serve one city or the entire country, I build an SEO strategy that matches your geographic ambitions, rather than a template that assumes you're all the same.",
       "card3Title": "AI search visibility included",
-      "card3Desc": "Your customers are already searching on ChatGPT and Perplexity. I optimize for Google AND AI engines — a service most SEO providers don't even offer yet."
+      "card3Desc": "Your customers are already searching on ChatGPT and Perplexity. I optimize for Google and AI engines, a service most SEO providers don't even offer yet."
     },
     "included": {
       "eyebrow": "WHAT'S INCLUDED",
@@ -833,7 +838,7 @@
       "card1Title": "Technical SEO Audit & Fixes",
       "card1Desc": "Site speed, indexation, crawl errors, Core Web Vitals, mobile optimization, and structured data. The foundation everything else builds on.",
       "card2Title": "Keyword Research & Strategy",
-      "card2Desc": "Buyer-intent keyword research mapped to your services, location, and competitive landscape. Targets people ready to buy — not just browse.",
+      "card2Desc": "Buyer-intent keyword research mapped to your services, location, and competitive landscape. Targets people ready to buy, not just browse.",
       "card3Title": "On-Page Optimization",
       "card3Desc": "Meta titles, descriptions, H1-H3 structure, internal linking, content optimization, and FAQ integration to maximize every page's ranking potential.",
       "card4Title": "Local SEO",
@@ -872,7 +877,7 @@
         "Content optimization (existing pages)",
         "Google Business Profile management",
         "Weekly activity reports + monthly GA4 report",
-        "Month-to-month — no contracts"
+        "Month-to-month, with no contracts"
       ],
       "plan2Ideal": "Ideal for: small businesses ready to grow consistently",
       "plan2Cta": "Start Growing →",
@@ -885,7 +890,7 @@
         "New content creation (2 pieces/mo)",
         "AI search optimization (GEO) included",
         "Priority support + bi-weekly calls",
-        "Month-to-month — no contracts"
+        "Month-to-month, with no contracts"
       ],
       "plan3Ideal": "Ideal for: businesses in more competitive markets",
       "plan3Cta": "Accelerate Growth →",
@@ -922,7 +927,7 @@
       "colAlfredo": "Alfredo Abreu",
       "row1Feature": "Who executes your SEO",
       "row1Agency": "Junior account manager",
-      "row1Alfredo": "Me — the senior consultant",
+      "row1Alfredo": "Me (the senior consultant)",
       "row2Feature": "Pricing",
       "row2Agency": "\"Request a quote\"",
       "row2Alfredo": "Published on this page",
@@ -959,7 +964,7 @@
       "eyebrow": "FAQ",
       "h2": "Questions small business owners ask before starting.",
       "q1": "How much does SEO cost for a small business?",
-      "a1": "My services start at $500 for a one-time SEO audit and $1,000/month for ongoing SEO management. Unlike most agencies, I publish my pricing — no surprise quotes. The free 30-minute audit is the best way to get a personalized recommendation for your specific situation.",
+      "a1": "My services start at $500 for a one-time SEO audit and $1,000/month for ongoing SEO management. Unlike most agencies, I publish my pricing, with no surprise quotes. The free 30-minute audit is the best way to get a personalized recommendation for your specific situation.",
       "q2": "Is there a long-term contract?",
       "a2": "No. All plans are month-to-month. Pay at the start of each month, cancel before the next billing cycle with no penalties. No 6-month minimums, no 12-month lock-ins. I earn your business every month through results.",
       "q3": "How long does it take to see SEO results?",
@@ -967,15 +972,15 @@
       "q4": "Do you work with businesses outside the US?",
       "a4": "Yes. I serve businesses across the US, Latin America, and internationally. As a bilingual English/Spanish SEO consultant, I'm especially effective for companies serving both markets or based in Spanish-speaking countries targeting the US.",
       "q5": "What makes you different from a large agency?",
-      "a5": "Three things: (1) Senior execution — I do the work, not a junior. (2) Transparent pricing — published on this page, no surprises. (3) Month-to-month — no contracts that trap you. Most agencies can't say all three.",
+      "a5": "Three things: (1) Senior execution: I do the work, not a junior. (2) Transparent pricing: published on this page, no surprises. (3) Month-to-month plans: no contracts that trap you. Most agencies can't say all three.",
       "q6": "Do you offer affordable SEO for very small budgets?",
-      "a6": "The $500 audit is the best starting point if you're not ready for a monthly retainer. It gives you a complete picture of your SEO health and a prioritized roadmap you can implement yourself or with my help. For ongoing management, $1,000/month is my minimum — below this I can't deliver meaningful results.",
+      "a6": "The $500 audit is the best starting point if you're not ready for a monthly retainer. It gives you a complete picture of your SEO health and a prioritized roadmap you can implement yourself or with my help. For ongoing management, $1,000/month is my minimum. Below this, I cannot deliver meaningful results.",
       "q7": "What industries do you specialize in?",
       "a7": "I've worked across B2B nearshoring, BPO, SaaS, fintech, local services, e-commerce, education, and non-profits. My engineering background means I apply systems thinking to every industry. See my case studies for real examples."
     },
     "cta": {
       "h2": "Stop paying agencies that treat you like a small account.",
-      "body": "Book a free 30-minute audit. I'll review your site, show you exactly what's holding back your organic growth, and give you an honest assessment — no sales pitch, no pressure.",
+      "body": "Book a free 30-minute audit. I'll review your site, show you exactly what's holding back your organic growth, and give you an honest assessment: no sales pitch, no pressure.",
       "ctaPrimary": "Book Free Small Business SEO Audit →",
       "secondary": "Month-to-month plans from $1,000/mo · No contracts · Senior execution"
     }

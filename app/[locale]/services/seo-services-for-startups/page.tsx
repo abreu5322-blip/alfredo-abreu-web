@@ -269,7 +269,7 @@ export default async function StartupSeoPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {/* Left — bad */}
+            {/* Left - bad */}
             <div className="bg-red-50/40 rounded-2xl border border-red-100 p-8">
               <p className="font-semibold text-midnight-navy mb-6">{t('problem.leftTitle')}</p>
               <ul className="flex flex-col gap-4">
@@ -282,7 +282,7 @@ export default async function StartupSeoPage() {
               </ul>
             </div>
 
-            {/* Right — good */}
+            {/* Right - good */}
             <div className="bg-soft-lilac/10 rounded-2xl border border-soft-lilac/40 p-8">
               <p className="font-semibold text-midnight-navy mb-6">{t('problem.rightTitle')}</p>
               <ul className="flex flex-col gap-4">
@@ -300,7 +300,7 @@ export default async function StartupSeoPage() {
 
       <div className="gradient-divider" />
 
-      {/* HOW I HELP STARTUPS — 4-phase */}
+      {/* HOW I HELP STARTUPS - 4-phase */}
       <section className="relative bg-white py-20 overflow-hidden">
         <FloatingTriangles count={4} theme="light" intensity="subtle" />
 
@@ -342,7 +342,7 @@ export default async function StartupSeoPage() {
 
       <div className="gradient-divider" />
 
-      {/* WHAT'S INCLUDED — 6-card grid */}
+      {/* WHAT'S INCLUDED - 6-card grid */}
       <section className="relative bg-white py-20 overflow-hidden">
         {/* Gradient glow center */}
         <div
@@ -405,7 +405,7 @@ export default async function StartupSeoPage() {
           </div>
 
           <div className="grid lg:grid-cols-3 gap-6 mb-8">
-            {/* Plan 1 — Audit */}
+            {/* Plan 1 - Audit */}
             <div className="bg-white rounded-2xl border border-soft-lilac/40 p-8 flex flex-col">
               <div className="mb-6">
                 <p className="text-xs font-semibold uppercase tracking-wider text-midnight-navy/40 mb-1">
@@ -435,7 +435,7 @@ export default async function StartupSeoPage() {
               </a>
             </div>
 
-            {/* Plan 2 — Monthly SEO (gradient border, popular) */}
+            {/* Plan 2 - Monthly SEO (gradient border, popular) */}
             <div className="gradient-border flex flex-col">
               <div className="p-8 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-6">
@@ -472,7 +472,7 @@ export default async function StartupSeoPage() {
               </div>
             </div>
 
-            {/* Plan 3 — Hyper Growth */}
+            {/* Plan 3 - Hyper Growth */}
             <div className="bg-white rounded-2xl border border-soft-lilac/40 p-8 flex flex-col">
               <div className="mb-6">
                 <p className="text-xs font-semibold uppercase tracking-wider text-midnight-navy/40 mb-1">
@@ -516,7 +516,7 @@ export default async function StartupSeoPage() {
 
       <div className="gradient-divider" />
 
-      {/* WHY STARTUPS CHOOSE ME — dark section */}
+      {/* WHY STARTUPS CHOOSE ME - dark section */}
       <section className="relative bg-midnight-navy py-20 overflow-hidden">
         <FloatingTriangles count={5} theme="dark" intensity="medium" />
 

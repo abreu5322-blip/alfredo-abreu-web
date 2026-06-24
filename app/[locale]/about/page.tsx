@@ -8,7 +8,7 @@ import { CheckCircle, Calendar } from 'lucide-react'
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale()
   return {
-    title: 'About Alfredo Abreu — B2B SEO Consultant',
+    title: 'About Alfredo Abreu | B2B SEO Consultant',
     description: 'Bilingual B2B SEO consultant with an Electrical Engineering background. 6+ years, 31+ projects, $14.85M+ in client revenue generated.',
     alternates: {
       canonical: `https://alfredoabreu.com/${locale}/about`,
@@ -71,13 +71,13 @@ export default async function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Image */}
             <div>
-              {/* TODO: image — profile/alfredo-about.jpg — 800×1000 — About page main photo */}
+              {/* TODO: image - profile/alfredo-about.jpg - 800×1000 - About page main photo */}
               <ImagePlaceholder
                 src={undefined}
-                alt="Alfredo Abreu — B2B SEO Consultant"
+                alt="Alfredo Abreu | B2B SEO Consultant"
                 width={800}
                 height={1000}
-                label="Alfredo Abreu — About Page Photo"
+                label="Alfredo Abreu - About Page Photo"
                 className="w-full max-w-sm mx-auto lg:mx-0"
                 priority
               />
@@ -188,13 +188,13 @@ export default async function AboutPage() {
               </p>
             </div>
             <div>
-              {/* TODO: image — awards/condor-recognition.jpg — 600×800 — Speaker recognition award at Condor Marketing & Staffing */}
+              {/* TODO: image - awards/condor-recognition.jpg - 600×800 - Speaker recognition award at Condor Marketing & Staffing */}
               <ImagePlaceholder
                 src={undefined}
                 alt="Alfredo Abreu speaking at Condor Marketing & Staffing"
                 width={600}
                 height={800}
-                label="Condor Marketing — Speaking Recognition"
+                label="Condor Marketing - Speaking Recognition"
                 className="max-w-xs mx-auto lg:mx-0"
               />
             </div>

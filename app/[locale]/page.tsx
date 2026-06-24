@@ -10,10 +10,10 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'home' })
 
   return {
-    title: 'Alfredo Abreu — B2B SEO Consultant | Nearshoring, BPO & SaaS',
+    title: 'Alfredo Abreu | B2B SEO Consultant | Nearshoring, BPO & SaaS',
     description: t('hero.body'),
     openGraph: {
-      title: 'Alfredo Abreu — B2B SEO Consultant',
+      title: 'Alfredo Abreu | B2B SEO Consultant',
       description: t('hero.body'),
       url: `https://alfredoabreu.com/${locale}`,
       locale: locale === 'en' ? 'en_US' : 'es_419',
@@ -271,7 +271,7 @@ export default async function HomePage() {
               </Link>
             </div>
 
-            {/* Card 2 — gradient border */}
+            {/* Card 2 - gradient border */}
             <div className="gradient-border">
               <div className="p-8 h-full">
                 <span className="text-xs font-semibold uppercase tracking-wider text-white bg-gradient-to-r from-royal-blue to-lavender-blue px-3 py-1 rounded-full">

@@ -24,7 +24,12 @@
       "ctaPrimary": "Auditoría Gratis de 30 min",
       "ctaGhost": "Ver Casos de Éxito →",
       "trustBar": "Empresas B2B que confían en mí:",
-      "trustItems": ["Nearshoring", "BPO", "SaaS", "Fintech"],
+      "trustItems": [
+        "Nearshoring",
+        "BPO",
+        "SaaS",
+        "Fintech"
+      ],
       "metric1Value": "$14.85M+",
       "metric1Label": "Revenue orgánico generado hasta Q1-2026",
       "metric2Value": "+168%",
@@ -67,7 +72,7 @@
       "h2Highlight": "revenue orgánico",
       "card1Title": "Auditoría Estratégica",
       "card1Price": "Desde $500",
-      "card1Desc": "Un diagnóstico completo de tu SEO — técnico, contenido y off-page — con un roadmap priorizado que puedes ejecutar de inmediato.",
+      "card1Desc": "Un diagnóstico completo de tu SEO (técnico, contenido y off-page) con un roadmap priorizado que puedes ejecutar de inmediato.",
       "card1Tag": "Única vez",
       "card2Title": "SEO Mensual",
       "card2Price": "Desde $1,000/mes",
@@ -104,7 +109,7 @@
       "phase1Desc": "Auditoría completa: salud técnica, brechas de keywords, panorama competitivo y oportunidades de contenido.",
       "phase2Num": "02",
       "phase2Title": "Blueprintar",
-      "phase2Desc": "Roadmap orientado al revenue: priorizado por impacto, esfuerzo y objetivos del negocio — no métricas de vanidad.",
+      "phase2Desc": "Roadmap orientado al revenue: priorizado por impacto, esfuerzo y objetivos del negocio, no métricas de vanidad.",
       "phase3Num": "03",
       "phase3Title": "Construir",
       "phase3Desc": "Ejecutar con precisión: fixes técnicos, link building de autoridad y contenido que convierte.",
@@ -206,13 +211,13 @@
       "q1": "¿Qué incluye el retainer mensual?",
       "a1": "Todos los planes incluyen monitoreo técnico SEO, link building, optimización de contenido e informes mensuales con atribución de revenue. La diferencia entre planes es el volumen e intensidad del link building y la producción de contenido.",
       "q2": "¿Cuál plan debo elegir?",
-      "a2": "Empieza con la Auditoría Estratégica ($500) — te da un panorama claro de tu situación actual y qué plan tiene más sentido para tus objetivos. Si estás empezando con el SEO, Base suele ser el indicado. Si ya tienes tráfico y quieres escalar, Growth o Hyper Growth.",
+      "a2": "Empieza con la Auditoría Estratégica ($500), la cual te da un panorama claro de tu situación actual y qué plan tiene más sentido para tus objetivos. Si estás empezando con el SEO, Base suele ser el indicado. Si ya tienes tráfico y quieres escalar, Growth o Hyper Growth.",
       "q3": "¿Hay un compromiso mínimo?",
-      "a3": "3 meses mínimo para retainers mensuales. El SEO es una actividad de capitalización — el primer mes es todo cimientos. Los meses 2-3 es cuando empiezas a ver tracción. Los clientes que se quedan 6+ meses ven los mejores resultados.",
+      "a3": "3 meses mínimo para retainers mensuales. El SEO es una actividad de capitalización: el primer mes es todo cimientos. Los meses 2-3 es cuando empiezas a ver tracción. Los clientes que se quedan 6+ meses ven los mejores resultados.",
       "q4": "¿Cuándo veré resultados?",
       "a4": "Los fixes técnicos pueden tener impacto en 2-4 semanas. Los rankings de keywords típicamente mejoran a los 60-90 días. La atribución de revenue suele quedar clara a los 3-6 meses. Estableceré expectativas realistas en tu primera auditoría.",
       "q5": "¿Ofrecen reembolsos?",
-      "a5": "La Auditoría Estratégica no tiene reembolso una vez entregada — estás pagando por el análisis y mi tiempo. Los retainers mensuales se pueden cancelar al final de cualquier mes después del mínimo de 3 meses."
+      "a5": "La Auditoría Estratégica no tiene reembolso una vez entregada, ya que estás pagando por el análisis y mi tiempo. Los retainers mensuales se pueden cancelar al final de cualquier mes después del mínimo de 3 meses."
     },
     "finalCta": {
       "h2Part1": "¿No sabes cuál plan es el indicado?",
@@ -225,7 +230,7 @@
       "h2Part1": "¿Necesitas una",
       "h2Highlight": "solución más enfocada?",
       "card1Title": "Servicios SEO para Startups",
-      "card1Desc": "Un sistema SEO dedicado para startups en etapa temprana y de crecimiento. Velocidad, foco y ROI medible — sin el bloat de una agencia.",
+      "card1Desc": "Un sistema SEO dedicado para startups en etapa temprana y de crecimiento. Velocidad, foco y ROI medible, sin el bloat de una agencia.",
       "card1Cta": "Saber Más →",
       "card2Title": "Generative Engine Optimization",
       "card2Desc": "Haz que tu marca sea citada por ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews. Servicios GEO diseñados para visibilidad en AI search.",
@@ -306,7 +311,7 @@
     "recognition": {
       "eyebrow": "Reconocimiento",
       "title": "Speaker en Condor Marketing & Staffing",
-      "desc": "Speaker invitado sobre \"Dominando el SEO para Empresas B2B\" — cubriendo optimización de IA search, atribución de revenue y el panorama cambiante del orgánico en 2025-2026.",
+      "desc": "Speaker invitado sobre \"Dominando el SEO para Empresas B2B\", cubriendo la optimización de IA search, la atribución de revenue y el panorama cambiante del orgánico en 2025-2026.",
       "org": "Condor Marketing & Staffing"
     },
     "finalCta": {
@@ -371,7 +376,7 @@
       "Una revisión en vivo de la salud técnica SEO de tu sitio",
       "Tus 3 mejores oportunidades de keywords (orientadas al revenue, no al tráfico)",
       "Una evaluación honesta de tu perfil de backlinks actual",
-      "Próximos pasos claros — me contrates o no"
+      "Próximos pasos claros, me contrates o no"
     ],
     "socialProof": {
       "stat1": "31+ empresas",
@@ -406,14 +411,14 @@
     "relatedPosts": "Posts Relacionados"
   },
   "footer": {
-    "tagline": "Consultor SEO B2B Bilingüe — Nearshoring · BPO · SaaS",
+    "tagline": "Consultor SEO B2B Bilingüe | Nearshoring · BPO · SaaS",
     "nav": "Navegación",
     "legal": "© 2026 Alfredo Abreu. Todos los derechos reservados.",
     "madeWith": "Construido con Next.js & Tailwind CSS"
   },
   "startupSeo": {
     "meta": {
-      "title": "Servicios SEO para Startups | Alfredo Abreu — Consultor SEO B2B",
+      "title": "Servicios SEO para Startups | Alfredo Abreu | Consultor SEO B2B",
       "description": "SEO basado en datos para startups que convierte tráfico orgánico en revenue. SEO técnico, estrategia de contenido y optimización para AI search diseñado para startups en etapa temprana y de crecimiento."
     },
     "breadcrumb": {
@@ -425,8 +430,8 @@
       "eyebrow": "SERVICIOS SEO PARA STARTUPS",
       "h1Part1": "SEO para startups que genera",
       "h1Highlight": "revenue real",
-      "h1Part2": "— no métricas de vanidad.",
-      "body": "La mayoría de las startups pierden meses en tácticas SEO que no mueven la aguja. Construyo sistemas de crecimiento orgánico diseñados para velocidad, eficiencia y ROI medible — ya sea que estés en pre-seed o Serie B.",
+      "h1Part2": ", no métricas de vanidad.",
+      "body": "La mayoría de las startups pierden meses en tácticas SEO que no mueven la aguja. Construyo sistemas de crecimiento orgánico diseñados para velocidad, eficiencia y ROI medible, ya sea que estés en pre-seed o Serie B.",
       "ctaPrimary": "Agendar Auditoría SEO Gratis",
       "ctaGhost": "Ver Casos de Éxito →",
       "trustBar": "Startups que confían en mí: SaaS · Fintech · BPO · Nearshoring · E-commerce"
@@ -448,8 +453,8 @@
         "Arquitectura de keywords orientada al revenue, mapeada a tu buyer journey",
         "Contenido estratégico que rankea Y convierte (no contenido por contenido)",
         "Reportes semanales atados a pipeline, leads y revenue",
-        "Ejecución senior — yo hago el trabajo, no un junior",
-        "Engagement mes a mes — los resultados ganan la relación"
+        "Ejecución senior: yo hago el trabajo, no un junior",
+        "Engagement mes a mes: los resultados ganan la relación"
       ]
     },
     "approach": {
@@ -460,9 +465,9 @@
       "phase1Title": "Semana 1: Diagnóstico",
       "phase1Desc": "Auditoría técnica, gaps de competidores y oportunidades de keywords mapeados a tu ICP y buyer journey.",
       "phase2Title": "Semana 2: Plano",
-      "phase2Desc": "Roadmap priorizado a 90 días. Quick wins de alto impacto primero — porque las startups no pueden esperar 6 meses.",
+      "phase2Desc": "Roadmap priorizado a 90 días. Quick wins de alto impacto primero, porque las startups no pueden esperar 6 meses.",
       "phase3Title": "Semana 3+: Ejecución",
-      "phase3Desc": "Correcciones técnicas, optimización de contenido, link building estratégico y posicionamiento en AI search — todo ejecutado por mí.",
+      "phase3Desc": "Correcciones técnicas, optimización de contenido, link building estratégico y posicionamiento en AI search, todo ejecutado por mí.",
       "phase4Title": "Continuo: Medir y Escalar",
       "phase4Desc": "Reportes semanales atados a tu north star metric. Lo que funciona se escala. Lo que no, se corta. Sin métricas de vanidad."
     },
@@ -471,17 +476,17 @@
       "h2Part1": "SEO full-stack para startups.",
       "h2Part2": "Nada subcontratado.",
       "card1Title": "SEO Técnico",
-      "card1Desc": "Velocidad del sitio, crawleabilidad, indexación, structured data y Core Web Vitals — el fundamento sobre el que se construye todo.",
+      "card1Desc": "Velocidad del sitio, crawleabilidad, indexación, structured data y Core Web Vitals, el fundamento sobre el que se construye todo.",
       "card2Title": "Arquitectura de Keywords",
       "card2Desc": "Estrategia de keywords mapeada a revenue, alineada a tu ICP, buyer journey y landscape competitivo.",
       "card3Title": "Estrategia de Contenido",
-      "card3Desc": "Blog posts, landing pages y contenido pilar que rankea y convierte — escrito para humanos, optimizado para Google.",
+      "card3Desc": "Blog posts, landing pages y contenido pilar que rankea y convierte, escrito para humanos y optimizado para Google.",
       "card4Title": "Link Building",
-      "card4Desc": "Construcción de autoridad estratégica a través de backlinks de calidad, submissions en nichos y PR — sin spam, sin PBNs.",
+      "card4Desc": "Construcción de autoridad estratégica a través de backlinks de calidad, submissions en nichos y PR, sin spam ni PBNs.",
       "card5Title": "Optimización para AI Search",
       "card5Desc": "Aparece en ChatGPT, Perplexity, Gemini y Google AI Overviews. LLMs.txt, schema y contenido de autoridad.",
       "card6Title": "Reportes de Revenue",
-      "card6Desc": "Reportes semanales de actividad + análisis mensuales atados a pipeline, leads y revenue — no solo tráfico."
+      "card6Desc": "Reportes semanales de actividad + análisis mensuales atados a pipeline, leads y revenue, no solo tráfico."
     },
     "pricing": {
       "eyebrow": "PLANES SEO PARA STARTUPS",
@@ -534,7 +539,7 @@
       "card2Title": "Ventaja bilingüe",
       "card2Desc": "Entiendo tanto el mercado de USA como el de LatAm de forma nativa. Si tu startup atiende ambos, soy tu ventaja competitiva.",
       "card3Title": "Mentalidad de ingeniería",
-      "card3Desc": "Formación en Ingeniería Eléctrica. Trato el SEO como un sistema — inputs, outputs, feedback loops. Datos sobre opiniones."
+      "card3Desc": "Formación en Ingeniería Eléctrica. Trato el SEO como un sistema: inputs, outputs y feedback loops. Datos sobre opiniones."
     },
     "results": {
       "eyebrow": "RESULTADOS",
@@ -558,7 +563,7 @@
       "q2": "¿Hay compromiso mínimo?",
       "a2": "No. Engagement mes a mes. Me gano la relación a través de resultados, no contratos. Cualquier parte puede cancelar en cualquier momento.",
       "q3": "¿Qué pasa si ya tengo una persona de marketing in-house?",
-      "a3": "Perfecto — trabajo junto a tu equipo, no en contra. Me encargo de la ejecución técnica y la estrategia SEO mientras tu marketer se enfoca en marca, social y otros canales. También los capacito para que las capacidades internas crezcan.",
+      "a3": "Perfecto, trabajo junto a tu equipo, no en contra. Me encargo de la ejecución técnica y la estrategia SEO mientras tu marketer se enfoca en marca, social y otros canales. También los capacito para que las capacidades internas crezcan.",
       "q4": "¿Trabajas con startups pre-revenue?",
       "a4": "Sí, pero soy transparente: si aún no tienes product-market fit, el SEO podría no ser tu canal de mayor leverage ahora. Te diré honestamente en la auditoría gratuita si el SEO es la inversión correcta en tu etapa.",
       "q5": "¿Qué herramientas usas?",
@@ -586,7 +591,7 @@
   },
   "geoServices": {
     "meta": {
-      "title": "Servicios de Generative Engine Optimization | Alfredo Abreu — Consultor SEO B2B",
+      "title": "Servicios de Generative Engine Optimization | Alfredo Abreu | Consultor SEO B2B",
       "description": "Haz que tu marca sea citada por ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews. Servicios de Generative Engine Optimization (GEO) diseñados para visibilidad B2B en motores de búsqueda con IA."
     },
     "breadcrumb": {
@@ -598,7 +603,7 @@
       "eyebrow": "SERVICIOS DE GENERATIVE ENGINE OPTIMIZATION",
       "h1Part1": "Haz que tu marca sea citada por",
       "h1Highlight": "motores de búsqueda con IA.",
-      "body": "Google ya no es el único motor de búsqueda que importa. ChatGPT, Perplexity, Gemini y Copilot están respondiendo las preguntas de tus clientes ahora mismo — y si tu marca no está en esas respuestas, tus competidores sí. Diseño tu contenido para que sea citado, referenciado y recomendado por la IA.",
+      "body": "Google ya no es el único motor de búsqueda que importa. ChatGPT, Perplexity, Gemini y Copilot están respondiendo las preguntas de tus clientes ahora mismo, y si tu marca no está en esas respuestas, tus competidores sí. Diseño tu contenido para que sea citado, referenciado y recomendado por la IA.",
       "ctaPrimary": "Agendar Auditoría GEO Gratis",
       "ctaGhost": "Ver Casos de Éxito →",
       "metric1Value": "770+",
@@ -612,7 +617,7 @@
       "eyebrow": "LA NUEVA REALIDAD",
       "h2Part1": "Tus clientes ya usan IA para encontrar soluciones.",
       "h2Highlight": "¿Tu marca está en esas respuestas?",
-      "body": "Generative Engine Optimization (GEO) es la disciplina de diseñar el contenido, la autoridad y los datos estructurados de tu marca para que los modelos de lenguaje te citen cuando responden preguntas. No reemplaza el SEO tradicional — es la siguiente capa encima de él.",
+      "body": "Generative Engine Optimization (GEO) es la disciplina de diseñar el contenido, la autoridad y los datos estructurados de tu marca para que los modelos de lenguaje te citen cuando responden preguntas. No reemplaza el SEO tradicional; es la siguiente capa encima de él.",
       "engine1Name": "Google AI Overviews",
       "engine1Desc": "La nueva posición #1 en SERPs",
       "engine2Name": "ChatGPT",
@@ -653,7 +658,7 @@
       "phase1Title": "Schemas de Datos Estructurados Personalizados",
       "phase1Desc": "Diseño datos estructurados que hacen tu contenido legible por máquinas y listo para ser citado por LLMs. Schema de organización, FAQ, HowTo y schemas personalizados para tu industria.",
       "phase2Title": "Robots.txt Optimizado para Crawlers de IA",
-      "phase2Desc": "Configuro tu robots.txt para permitir y priorizar los crawlers de IA correctos — GPTBot, PerplexityBot, Google-Extended, ClaudeBot — para que puedan acceder y citar tu contenido.",
+      "phase2Desc": "Configuro tu robots.txt para permitir y priorizar los crawlers de IA correctos (como GPTBot, PerplexityBot, Google-Extended y ClaudeBot) para que puedan acceder y citar tu contenido.",
       "phase3Title": "Implementación de LLMs.txt",
       "phase3Desc": "Creo y despliego un archivo LLMs.txt dedicado que le dice a los motores de IA exactamente qué es tu sitio, qué ofrece, qué lo hace autoritativo y cómo citarlo. Piensa en él como una carta de presentación para la IA.",
       "phase4Title": "Tracking de Citas en IA e Iteración",
@@ -663,21 +668,21 @@
       "eyebrow": "QUÉ INCLUYE",
       "h2": "Todo lo que necesitas para dominar la búsqueda por IA.",
       "card1Title": "Auditoría de AI Search",
-      "card1Desc": "Análisis completo de tu visibilidad actual en AI search — dónde te citan, dónde faltas y dónde aparecen tus competidores en tu lugar.",
+      "card1Desc": "Análisis completo de tu visibilidad actual en AI search: dónde te citan, dónde faltas y dónde aparecen tus competidores en tu lugar.",
       "card2Title": "Ingeniería de Datos Estructurados",
       "card2Desc": "Schemas JSON-LD personalizados diseñados para hacer tu contenido la opción más legible por máquinas en tu industria.",
       "card3Title": "LLMs.txt y Configuración IA",
       "card3Desc": "Archivos dedicados para IA (LLMs.txt, robots.txt optimizado) que guían a los motores de IA hacia tu contenido más autoritativo.",
       "card4Title": "Estrategia de Contenido de Autoridad",
-      "card4Desc": "Contenido diseñado para ser citado — no solo posicionado. Guías definitivas, investigación respaldada por datos y artículos posicionados como experto.",
+      "card4Desc": "Contenido diseñado para ser citado, no solo posicionado. Guías definitivas, investigación respaldada por datos y artículos posicionados como experto.",
       "card5Title": "Monitoreo de Citas",
       "card5Desc": "Tracking mensual de las citas de tu marca en ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews vía Ahrefs.",
       "card6Title": "Base de SEO Tradicional",
-      "card6Desc": "GEO no reemplaza al SEO — se construye encima. SEO técnico, link building y optimización de contenido incluidos para que tanto Google como los motores de IA confíen en tu sitio."
+      "card6Desc": "GEO no reemplaza al SEO; se construye encima. SEO técnico, link building y optimización de contenido incluidos para que tanto Google como los motores de IA confíen en tu sitio."
     },
     "results": {
       "eyebrow": "RESULTADOS COMPROBADOS",
-      "h2Part1": "770+ citas en IA en 5 motores —",
+      "h2Part1": "770+ citas en IA en 5 motores",
       "h2Highlight": "y creciendo.",
       "engine1Name": "Google AI Overviews",
       "engine1Citations": "114",
@@ -745,9 +750,9 @@
       "eyebrow": "FAQ",
       "h2": "Preguntas sobre Generative Engine Optimization.",
       "q1": "¿Qué es Generative Engine Optimization (GEO)?",
-      "a1": "GEO es la práctica de optimizar el contenido y la configuración técnica de tu marca para que los motores de búsqueda con IA — ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews — te citen y recomienden cuando responden consultas de usuarios. Es la evolución del SEO para la era de la IA.",
+      "a1": "GEO es la práctica de optimizar el contenido y la configuración técnica de tu marca para que los motores de búsqueda con IA (incluyendo ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews) te citen y recomienden cuando responden consultas de usuarios. Es la evolución del SEO para la era de la IA.",
       "q2": "¿Sigo necesitando SEO tradicional si hago GEO?",
-      "a2": "Sí. GEO se construye sobre el SEO tradicional — no lo reemplaza. Los motores de IA dependen enormemente de los rankings de Google, la autoridad de dominio y el perfil de backlinks para determinar qué fuentes citar. Una base sólida de SEO hace que GEO sea significativamente más efectivo.",
+      "a2": "Sí. GEO se construye sobre el SEO tradicional; no lo reemplaza. Los motores de IA dependen enormemente de los rankings de Google, la autoridad de dominio y el perfil de backlinks para determinar qué fuentes citar. Una base sólida de SEO hace que GEO sea significativamente más efectivo.",
       "q3": "¿Cómo rastrean las citas en IA?",
       "a3": "Uso el tracking de citas de IA de Ahrefs para monitorear las menciones de tu marca en ChatGPT, Perplexity, Gemini, Copilot y Google AI Overviews. Recibes un reporte mensual mostrando cantidad de citas, qué páginas están siendo citadas y cómo tu visibilidad se compara con competidores.",
       "q4": "¿Qué es LLMs.txt?",
@@ -755,7 +760,7 @@
       "q5": "¿Cuánto tiempo hasta ver citas en IA?",
       "a5": "Depende de tu autoridad de dominio existente y calidad de contenido. Sitios con bases sólidas de SEO pueden empezar a aparecer en respuestas de IA dentro de 4-8 semanas de implementación GEO. Sitios nuevos o de baja autoridad pueden tomar 3-6 meses mientras construimos la base de SEO tradicional simultáneamente.",
       "q6": "¿Puedes garantizar que mi marca será citada por ChatGPT?",
-      "a6": "No — y cualquiera que garantice citas en IA no está siendo honesto. Los motores de IA son no determinísticos y cambian constantemente. Lo que sí puedo garantizar es que tu sitio estará técnicamente optimizado, con contenido diseñado y posicionado en autoridad para maximizar tu probabilidad de ser citado. Mi track record de 770+ citas en 5 motores habla por sí solo."
+      "a6": "No, y cualquiera que garantice citas en IA no está siendo honesto. Los motores de IA son no determinísticos y cambian constantemente. Lo que sí puedo garantizar es que tu sitio estará técnicamente optimizado, con contenido diseñado y posicionado en autoridad para maximizar tu probabilidad de ser citado. Mi track record de 770+ citas en 5 motores habla por sí solo."
     },
     "finalCta": {
       "h2": "¿Listo para ser citado por la IA?",
@@ -765,8 +770,8 @@
   },
   "smallBusinessSeo": {
     "meta": {
-      "title": "Servicios SEO para Pequeñas Empresas | Alfredo Abreu — Consultor SEO Senior",
-      "description": "Servicios SEO asequibles para pequeñas empresas. Precios transparentes, sin contratos a largo plazo, ejecución senior — no juniors. Servicio nacional e internacional. Agenda una auditoría gratis de 30 min."
+      "title": "Servicios SEO para Pequeñas Empresas | Alfredo Abreu | Consultor SEO Senior",
+      "description": "Servicios SEO asequibles para pequeñas empresas. Precios transparentes, sin contratos a largo plazo, ejecución senior, no juniors. Servicio nacional e internacional. Agenda una auditoría gratis de 30 min."
     },
     "breadcrumb": {
       "home": "Inicio",
@@ -801,14 +806,14 @@
         "Contratos de 6-12 meses, sin cláusula de salida",
         "Cargos ocultos por 'alcance adicional'",
         "Tu cuenta es 1 de 200+ que manejan",
-        "Sin precios en su web — 'solicita una cotización'",
+        "Sin precios en su web (solo 'solicita una cotización')",
         "Estrategias de plantilla, no personalizadas para tu negocio"
       ],
       "rightTitle": "Lo que doy a cada cliente pequeña empresa",
       "rightItems": [
-        "Estrategia senior Y ejecución senior — soy solo yo",
+        "Estrategia senior Y ejecución senior: soy solo yo",
         "Reportes semanales vinculados a revenue, leads y pipeline",
-        "Mes a mes — cancela cuando quieras, sin penalizaciones",
+        "Mes a mes: cancela cuando quieras, sin penalizaciones",
         "Precios transparentes publicados en esta página",
         "Tu negocio recibe mi atención completa, no una cola",
         "Auditoría gratis de 30 min antes de gastar un dólar",
@@ -819,13 +824,13 @@
       "eyebrow": "EL ENFOQUE CORRECTO",
       "h2Part1": "El SEO para pequeñas empresas no se trata de volumen. Se trata del",
       "h2Highlight": "tráfico correcto.",
-      "body": "Una pequeña empresa con 500 visitantes mensuales que convierten vale más que un sitio enterprise con 50,000 visitantes que no lo hacen. Mi estrategia SEO para pequeñas empresas se enfoca en atraer exactamente a las personas con mayor probabilidad de convertirse en tus clientes — y convertir ese tráfico en revenue medible.",
+      "body": "Una pequeña empresa con 500 visitantes mensuales que convierten vale más que un sitio enterprise con 50,000 visitantes que no lo hacen. Mi estrategia SEO para pequeñas empresas se enfoca en atraer exactamente a las personas con mayor probabilidad de convertirse en tus clientes, convirtiendo ese tráfico en revenue medible.",
       "card1Title": "Estrategia de keywords orientada al revenue",
-      "card1Desc": "Mapeo keywords al buyer journey real de tus clientes — no solo al volumen de búsqueda. Cada keyword apunta a alguien cerca de tomar una decisión.",
+      "card1Desc": "Mapeo keywords al buyer journey real de tus clientes, no solo al volumen de búsqueda. Cada keyword apunta a alguien cerca de tomar una decisión.",
       "card2Title": "Alcance local + nacional",
-      "card2Desc": "Ya sea que sirvas a una ciudad o a todo el país, construyo una estrategia SEO que coincide con tus ambiciones geográficas — no una plantilla que asume que todos son iguales.",
+      "card2Desc": "Ya sea que sirvas a una ciudad o a todo el país, construyo una estrategia SEO que coincide con tus ambiciones geográficas, en lugar de una plantilla que asume que todos son iguales.",
       "card3Title": "Visibilidad en AI search incluida",
-      "card3Desc": "Tus clientes ya están buscando en ChatGPT y Perplexity. Optimizo para Google Y para motores de IA — un servicio que la mayoría de proveedores SEO ni siquiera ofrecen todavía."
+      "card3Desc": "Tus clientes ya están buscando en ChatGPT y Perplexity. Optimizo para Google y para motores de IA, un servicio que la mayoría de proveedores SEO ni siquiera ofrecen todavía."
     },
     "included": {
       "eyebrow": "QUÉ INCLUYE",
@@ -833,7 +838,7 @@
       "card1Title": "Auditoría SEO Técnica y Correcciones",
       "card1Desc": "Velocidad del sitio, indexación, errores de crawl, Core Web Vitals, optimización móvil y datos estructurados. El fundamento sobre el que se construye todo.",
       "card2Title": "Investigación de Keywords y Estrategia",
-      "card2Desc": "Investigación de keywords de intención de compra mapeada a tus servicios, ubicación y landscape competitivo. Apunta a personas listas para comprar — no solo a navegar.",
+      "card2Desc": "Investigación de keywords de intención de compra mapeada a tus servicios, ubicación y landscape competitivo. Apunta a personas listas para comprar, no solo a navegar.",
       "card3Title": "Optimización On-Page",
       "card3Desc": "Meta titles, descripciones, estructura H1-H3, enlazado interno, optimización de contenido e integración de FAQs para maximizar el potencial de ranking de cada página.",
       "card4Title": "SEO Local",
@@ -872,7 +877,7 @@
         "Optimización de contenido (páginas existentes)",
         "Gestión del Google Business Profile",
         "Reportes semanales + reporte mensual GA4",
-        "Mes a mes — sin contratos"
+        "Mes a mes, sin contratos"
       ],
       "plan2Ideal": "Ideal para: pequeñas empresas listas para crecer consistentemente",
       "plan2Cta": "Empezar a Crecer →",
@@ -885,7 +890,7 @@
         "Creación de contenido nuevo (2 piezas/mes)",
         "Optimización AI search (GEO) incluida",
         "Soporte prioritario + llamadas bi-semanales",
-        "Mes a mes — sin contratos"
+        "Mes a mes, sin contratos"
       ],
       "plan3Ideal": "Ideal para: negocios en mercados más competitivos",
       "plan3Cta": "Acelerar Crecimiento →",
@@ -922,7 +927,7 @@
       "colAlfredo": "Alfredo Abreu",
       "row1Feature": "Quién ejecuta tu SEO",
       "row1Agency": "Account manager junior",
-      "row1Alfredo": "Yo — el consultor senior",
+      "row1Alfredo": "Yo (el consultor senior)",
       "row2Feature": "Precios",
       "row2Agency": "\"Solicita una cotización\"",
       "row2Alfredo": "Publicados en esta página",
@@ -959,7 +964,7 @@
       "eyebrow": "FAQ",
       "h2": "Preguntas que hacen los dueños de pequeñas empresas antes de empezar.",
       "q1": "¿Cuánto cuesta el SEO para una pequeña empresa?",
-      "a1": "Mis servicios comienzan en $500 para una auditoría SEO única y $1,000/mes para gestión SEO continua. A diferencia de la mayoría de agencias, publico mis precios — sin cotizaciones sorpresa. La auditoría gratuita de 30 minutos es la mejor forma de obtener una recomendación personalizada para tu situación específica.",
+      "a1": "Mis servicios comienzan en $500 para una auditoría SEO única y $1,000/mes para gestión SEO continua. A diferencia de la mayoría de agencias, publico mis precios, sin cotizaciones sorpresa. La auditoría gratuita de 30 minutos es la mejor forma de obtener una recomendación personalizada para tu situación específica.",
       "q2": "¿Hay un contrato a largo plazo?",
       "a2": "No. Todos los planes son mes a mes. Paga al inicio de cada mes, cancela antes del próximo ciclo de facturación sin penalizaciones. Sin mínimos de 6 meses, sin bloqueos de 12 meses. Me gano tu negocio cada mes a través de resultados.",
       "q3": "¿Cuánto tiempo se tarda en ver resultados SEO?",
@@ -967,15 +972,15 @@
       "q4": "¿Trabajas con empresas fuera de USA?",
       "a4": "Sí. Atiendo empresas en USA, América Latina e internacionalmente. Como consultor SEO bilingüe inglés/español, soy especialmente efectivo para empresas que atienden ambos mercados o con sede en países hispanohablantes apuntando al mercado de USA.",
       "q5": "¿Qué te hace diferente de una agencia grande?",
-      "a5": "Tres cosas: (1) Ejecución senior — yo hago el trabajo, no un junior. (2) Precios transparentes — publicados en esta página, sin sorpresas. (3) Mes a mes — sin contratos que te atrapan. La mayoría de agencias no puede decir las tres.",
+      "a5": "Tres cosas: (1) Ejecución senior: yo hago el trabajo, no un junior. (2) Precios transparentes: publicados en esta página, sin sorpresas. (3) Mes a mes: sin contratos que te atrapan. La mayoría de agencias no puede decir las tres.",
       "q6": "¿Ofreces SEO asequible para presupuestos muy pequeños?",
-      "a6": "La auditoría de $500 es el mejor punto de partida si no estás listo para un retainer mensual. Te da un panorama completo de tu salud SEO y un roadmap priorizado que puedes implementar solo o con mi ayuda. Para gestión continua, $1,000/mes es mi mínimo — por debajo de esto no puedo entregar resultados significativos.",
+      "a6": "La auditoría de $500 es el mejor punto de partida si no estás listo para un retainer mensual. Te da un panorama completo de tu salud SEO y un roadmap priorizado que puedes implementar solo o con mi ayuda. Para gestión continua, $1,000/mes es mi mínimo. Por debajo de esto, no puedo entregar resultados significativos.",
       "q7": "¿En qué industrias te especializas?",
       "a7": "He trabajado en nearshoring B2B, BPO, SaaS, fintech, servicios locales, e-commerce, educación y ONGs. Mi formación en ingeniería significa que aplico pensamiento sistémico en cada industria. Ve mis casos de éxito para ejemplos reales."
     },
     "cta": {
       "h2": "Deja de pagarle a agencias que te tratan como una cuenta pequeña.",
-      "body": "Agenda una auditoría gratuita de 30 minutos. Reviso tu sitio, te muestro exactamente qué está frenando tu crecimiento orgánico y te doy una evaluación honesta — sin pitch de ventas, sin presión.",
+      "body": "Agenda una auditoría gratuita de 30 minutos. Reviso tu sitio, te muestro exactamente qué está frenando tu crecimiento orgánico y te doy una evaluación honesta: sin pitch de ventas, sin presión.",
       "ctaPrimary": "Agendar Auditoría SEO Gratis →",
       "secondary": "Planes mes a mes desde $1,000/mes · Sin contratos · Ejecución senior"
     }
