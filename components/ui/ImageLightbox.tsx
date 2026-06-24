@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
@@ -20,10 +20,27 @@ interface ImageLightboxProps {
 
 export function ImageLightbox({ images, initialIndex, isOpen, onClose }: ImageLightboxProps) {
   const [currentIndex, setCurrentIndex] = useState(initialIndex)
+  const [prevInitialIndex, setPrevInitialIndex] = useState(initialIndex)
+  const [prevIsOpen, setPrevIsOpen] = useState(isOpen)
+  const [isZoomed, setIsZoomed] = useState(false)
+  const [prevCurrentIndex, setPrevCurrentIndex] = useState(currentIndex)
 
-  useEffect(() => {
+  const constraintsRef = useRef<HTMLDivElement>(null)
+
+  // Sync state if initialIndex or isOpen changes
+  if (initialIndex !== prevInitialIndex || isOpen !== prevIsOpen) {
+    setPrevInitialIndex(initialIndex)
+    setPrevIsOpen(isOpen)
     setCurrentIndex(initialIndex)
-  }, [initialIndex])
+    setPrevCurrentIndex(initialIndex)
+    setIsZoomed(false)
+  }
+
+  // Reset zoom state if currentIndex changes
+  if (currentIndex !== prevCurrentIndex) {
+    setPrevCurrentIndex(currentIndex)
+    setIsZoomed(false)
+  }
 
   const goNext = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % images.length)
@@ -74,7 +91,7 @@ export function ImageLightbox({ images, initialIndex, isOpen, onClose }: ImageLi
           {/* Close button */}
           <button
             onClick={onClose}
-            className="absolute top-4 right-4 z-10 p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+            className="absolute top-4 right-4 z-30 p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
             aria-label="Close lightbox"
           >
             <X size={24} />
@@ -85,14 +102,14 @@ export function ImageLightbox({ images, initialIndex, isOpen, onClose }: ImageLi
             <>
               <button
                 onClick={goPrev}
-                className="absolute left-4 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                className="absolute left-4 z-30 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
                 aria-label="Previous image"
               >
                 <ChevronLeft size={24} />
               </button>
               <button
                 onClick={goNext}
-                className="absolute right-4 z-10 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+                className="absolute right-4 z-30 p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
                 aria-label="Next image"
               >
                 <ChevronRight size={24} />
@@ -100,32 +117,56 @@ export function ImageLightbox({ images, initialIndex, isOpen, onClose }: ImageLi
             </>
           )}
 
-          {/* Image */}
+          {/* Image Container */}
           <motion.div
             key={currentIndex}
-            className="relative z-10 max-w-[90vw] max-h-[85vh] flex flex-col items-center"
+            className="relative z-10 w-full max-w-[90vw] max-h-[85vh] flex flex-col items-center justify-center"
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{ duration: 0.2 }}
           >
-            <Image
-              src={current.src}
-              alt={current.alt}
-              width={1600}
-              height={900}
-              className="object-contain max-h-[80vh] w-auto h-auto rounded-lg"
-              priority
-            />
+            <div
+              ref={constraintsRef}
+              className="relative overflow-hidden flex items-center justify-center rounded-lg w-full h-[75vh]"
+            >
+              <motion.div
+                drag={isZoomed}
+                dragConstraints={constraintsRef}
+                dragElastic={0.15}
+                animate={{
+                  scale: isZoomed ? 2.5 : 1,
+                  x: isZoomed ? undefined : 0,
+                  y: isZoomed ? undefined : 0,
+                }}
+                transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+                className={`relative flex items-center justify-center cursor-zoom-in ${
+                  isZoomed ? 'cursor-zoom-out' : ''
+                }`}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setIsZoomed(!isZoomed)
+                }}
+              >
+                <Image
+                  src={current.src}
+                  alt={current.alt}
+                  width={1600}
+                  height={900}
+                  className="object-contain max-h-[75vh] w-auto h-auto rounded-lg select-none pointer-events-none"
+                  priority
+                />
+              </motion.div>
+            </div>
             {/* Caption */}
             {current.label && (
-              <p className="mt-4 text-sm text-white/70 text-center max-w-xl">
+              <p className="mt-4 text-sm text-white/70 text-center max-w-xl select-none">
                 {current.label}
               </p>
             )}
             {/* Counter */}
             {images.length > 1 && (
-              <p className="mt-2 text-xs text-white/40">
+              <p className="mt-2 text-xs text-white/40 select-none">
                 {currentIndex + 1} / {images.length}
               </p>
             )}
