@@ -217,9 +217,9 @@ export default async function BlogPostPage({
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-start gap-6">
             <div className="w-16 h-16 rounded-full shrink-0 overflow-hidden">
-              {/* TODO: image - profile/alfredo-square.jpg - 400×400 - Author avatar for blog posts */}
+              {/* TODO: image - profile/alfredo-square.png - 400×400 - Author avatar for blog posts */}
               <ImagePlaceholder
-                src="/images/profile/alfredo-square.jpg"
+                src="/images/profile/alfredo-square.png"
                 alt="Alfredo Abreu"
                 width={400}
                 height={400}

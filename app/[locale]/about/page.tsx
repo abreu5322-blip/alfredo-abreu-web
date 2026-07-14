@@ -70,15 +70,15 @@ export default async function AboutPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             {/* Image */}
-            <div>
-              {/* TODO: image - profile/alfredo-about.jpg - 800×1000 - About page main photo */}
+            <div className="flex justify-center lg:justify-start">
+              {/* TODO: image - profile/alfredo-about.png - 1000×1000 - About page main photo */}
               <ImagePlaceholder
-                src="/images/profile/alfredo-about.jpg"
+                src="/images/profile/alfredo-about.png"
                 alt="Alfredo Abreu | B2B SEO Consultant"
-                width={800}
+                width={1000}
                 height={1000}
                 label="Alfredo Abreu - About Page Photo"
-                className="w-full max-w-sm mx-auto lg:mx-0"
+                className="w-full max-w-md lg:max-w-lg"
                 priority
               />
             </div>
