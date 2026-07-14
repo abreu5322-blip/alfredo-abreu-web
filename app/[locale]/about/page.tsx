@@ -73,7 +73,7 @@ export default async function AboutPage() {
             <div>
               {/* TODO: image - profile/alfredo-about.jpg - 800×1000 - About page main photo */}
               <ImagePlaceholder
-                src={undefined}
+                src="/images/profile/alfredo-about.jpg"
                 alt="Alfredo Abreu | B2B SEO Consultant"
                 width={800}
                 height={1000}

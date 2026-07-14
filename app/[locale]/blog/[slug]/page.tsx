@@ -219,7 +219,7 @@ export default async function BlogPostPage({
             <div className="w-16 h-16 rounded-full shrink-0 overflow-hidden">
               {/* TODO: image - profile/alfredo-square.jpg - 400×400 - Author avatar for blog posts */}
               <ImagePlaceholder
-                src={undefined}
+                src="/images/profile/alfredo-square.jpg"
                 alt="Alfredo Abreu"
                 width={400}
                 height={400}
