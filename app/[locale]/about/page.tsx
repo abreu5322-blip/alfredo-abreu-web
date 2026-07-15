@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Image from 'next/image'
 import { getLocale, getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import FloatingTriangles from '@/components/FloatingTriangles'
@@ -20,10 +21,17 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-const tools = [
-  'Google Search Console', 'Google Analytics 4', 'Ahrefs', 'Semrush',
-  'Screaming Frog', 'Surfer SEO', 'GTmetrix', 'ChatGPT / GPT-4o',
-  'Claude', 'Ubersuggest', 'AnswerThePublic', 'Looker Studio',
+const toolLogos = [
+  { name: 'Google Search Console', src: '/images/tools/google-search-console.png', width: 930, height: 100 },
+  { name: 'Google Analytics', src: '/images/tools/google-analytics.png', width: 191, height: 100 },
+  { name: 'Ahrefs', src: '/images/tools/ahrefs.png', width: 514, height: 100 },
+  { name: 'Semrush', src: '/images/tools/semrush.png', width: 376, height: 100 },
+  { name: 'Screaming Frog', src: '/images/tools/screaming-frog.png', width: 416, height: 100 },
+  { name: 'Surfer SEO', src: '/images/tools/surfer-seo.png', width: 308, height: 100 },
+  { name: 'GTmetrix', src: '/images/tools/gtmetrix.png', width: 191, height: 100 },
+  { name: 'ChatGPT', src: '/images/tools/chatgpt.png', width: 180, height: 100 },
+  { name: 'Ubersuggest', src: '/images/tools/ubersuggest.png', width: 206, height: 100 },
+  { name: 'AnswerThePublic', src: '/images/tools/answerthepublic.png', width: 216, height: 100 },
 ]
 
 export default async function AboutPage() {
@@ -153,15 +161,33 @@ export default async function AboutPage() {
             </h2>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-3">
-            {tools.map((tool) => (
-              <div
-                key={tool}
-                className="px-5 py-3 rounded-xl border border-soft-lilac/60 bg-soft-lilac/10 text-sm font-medium text-midnight-navy/70 hover:border-lavender-blue/50 hover:text-midnight-navy transition-colors"
-              >
-                {tool}
-              </div>
-            ))}
+          <div className="marquee-container py-4">
+            <div className="animate-marquee gap-12 items-center">
+              {/* First Set of Logos */}
+              {toolLogos.map((logo, idx) => (
+                <div key={`logo-1-${idx}`} className="flex items-center justify-center min-w-[140px] h-28 px-4 opacity-95 hover:opacity-100 transition-all duration-300">
+                  <Image
+                    src={logo.src}
+                    alt={logo.name}
+                    width={logo.width}
+                    height={logo.height}
+                    className="max-h-16 w-auto object-contain"
+                  />
+                </div>
+              ))}
+              {/* Duplicate Set of Logos for Infinite Loop */}
+              {toolLogos.map((logo, idx) => (
+                <div key={`logo-2-${idx}`} className="flex items-center justify-center min-w-[140px] h-28 px-4 opacity-95 hover:opacity-100 transition-all duration-300">
+                  <Image
+                    src={logo.src}
+                    alt={logo.name}
+                    width={logo.width}
+                    height={logo.height}
+                    className="max-h-16 w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
